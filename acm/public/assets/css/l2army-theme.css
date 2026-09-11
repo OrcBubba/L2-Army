@@ -1,0 +1,120 @@
+/*
+ * L2 Army green theme override for L2jMobius ACM
+ * Matches the main site's dark-green palette.
+ * Loaded after style.css via template.php modification.
+ */
+
+:root {
+  --acm-green-dark:   #163824;
+  --acm-green-mid:    #1c4a2e;
+  --acm-green-soft:   #246338;
+  --acm-green-bright: #2f9e4f;
+  --acm-green-light:  #3cb371;
+  --acm-paper:        #f4f8f4;
+  --acm-muted:        #5a7264;
+  --acm-line:         rgba(18,38,26,.12);
+}
+
+/* Hide SB Admin sidebar collapse arrows (look like back/forward) */
+#sidebarToggle,
+#sidebarToggleTop,
+.text-center.d-none.d-md-inline.mt-md-4 {
+  display: none !important;
+}
+
+/* ─── Sidebar ─────────────────────────────────────────── */
+.sidebar {
+  background: linear-gradient(180deg, var(--acm-green-mid) 0%, var(--acm-green-dark) 100%) !important;
+}
+.sidebar .sidebar-brand-text { color: #fff !important; }
+.sidebar hr.sidebar-divider   { border-top-color: rgba(255,255,255,.12) !important; }
+.sidebar .nav-item .nav-link  { color: rgba(255,255,255,.75) !important; }
+.sidebar .nav-item .nav-link:hover,
+.sidebar .nav-item.active .nav-link { color: #fff !important; }
+.sidebar .sidebar-heading      { color: rgba(255,255,255,.5) !important; }
+
+/* ─── Top Navbar ──────────────────────────────────────── */
+.navbar-light, .topbar { background: #fff !important; border-bottom: 1px solid var(--acm-line) !important; }
+.topbar .dropdown-toggle,
+.topbar-divider { color: var(--acm-green-mid) !important; }
+
+/* ─── Buttons ─────────────────────────────────────────── */
+.btn-primary {
+  background: linear-gradient(180deg, var(--acm-green-light), var(--acm-green-bright)) !important;
+  border-color: var(--acm-green-bright) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+}
+.btn-primary:hover  { background: var(--acm-green-soft) !important; border-color: var(--acm-green-soft) !important; }
+.btn-success        { background: var(--acm-green-bright) !important; border-color: var(--acm-green-bright) !important; border-radius: 999px !important; }
+.btn-success:hover  { background: var(--acm-green-soft)  !important; border-color: var(--acm-green-soft)  !important; }
+.btn-danger         { border-radius: 999px !important; }
+
+/* ─── Links ───────────────────────────────────────────── */
+a:not(.btn):not(.nav-link):not(.sidebar-brand):not(.scroll-to-top) { color: var(--acm-green-bright) !important; }
+a:not(.btn):not(.nav-link):hover { color: var(--acm-green-soft) !important; }
+
+/* ─── Cards & Panels ──────────────────────────────────── */
+.card { border: 1px solid var(--acm-line) !important; box-shadow: 0 4px 18px rgba(11,24,17,.08) !important; }
+.card-header.bg-primary,
+.bg-primary { background: var(--acm-green-mid) !important; color: #fff !important; }
+.card-header { border-bottom: 1px solid var(--acm-line) !important; }
+
+/* ─── Badges ──────────────────────────────────────────── */
+.badge-primary { background: var(--acm-green-bright) !important; }
+.badge-success { background: var(--acm-green-light)  !important; }
+
+/* ─── Form controls ───────────────────────────────────── */
+.form-control:focus {
+  border-color: var(--acm-green-bright) !important;
+  box-shadow: 0 0 0 .2rem rgba(47,158,79,.22) !important;
+}
+
+/* ─── Page background ─────────────────────────────────── */
+body { background: var(--acm-paper) !important; }
+
+/* ─── Tables ──────────────────────────────────────────── */
+.table thead th { background: var(--acm-green-mid) !important; color: #fff !important; border-color: var(--acm-green-soft) !important; }
+.table-bordered td, .table-bordered th { border-color: var(--acm-line) !important; }
+
+/* ─── Alerts ──────────────────────────────────────────── */
+.alert-success { background: rgba(47,158,79,.12) !important; border-color: var(--acm-green-bright) !important; color: var(--acm-green-soft) !important; }
+.alert-info    { background: rgba(47,158,79,.08) !important; border-color: var(--acm-green-light)  !important; color: var(--acm-green-mid)  !important; }
+
+/* ─── Pagination ──────────────────────────────────────── */
+.page-item.active .page-link { background: var(--acm-green-bright) !important; border-color: var(--acm-green-bright) !important; }
+.page-link { color: var(--acm-green-bright) !important; }
+.page-link:hover { color: var(--acm-green-soft) !important; }
+
+/* ─── Login page card ─────────────────────────────────── */
+.bg-login-image {
+  background: linear-gradient(180deg, #3cb371, #217a3b) !important;
+}
+
+html,
+body.bg-gradient-primary {
+  background: linear-gradient(180deg, #2f9e4f 0%, #1c4a2e 55%, #163824 100%) !important;
+}
+
+/* Compact layout when the login page is embedded in the site register panel */
+html:has(body.acm-embed),
+body.acm-embed,
+body.acm-embed.bg-gradient-primary {
+  min-height: 0 !important;
+  height: auto !important;
+  overflow: hidden !important;
+  background: linear-gradient(180deg, #2f9e4f 0%, #1c4a2e 100%) !important;
+}
+
+body.acm-embed .container {
+  max-width: 980px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+body.acm-embed .mt-4 { margin-top: 0.5rem !important; }
+body.acm-embed .my-5 { margin-top: 0.9rem !important; margin-bottom: 0.9rem !important; }
+body.acm-embed .p-5 { padding: 1.35rem 1.5rem !important; }
+body.acm-embed img { max-height: 56px; width: auto; }
+body.acm-embed .card.shadow-lg { box-shadow: none !important; }
+body.acm-embed h1.h4 { margin-bottom: 1rem !important; }

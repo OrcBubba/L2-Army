@@ -1,0 +1,1314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: L2jMobius ACM\n"
+"POT-Creation-Date: 2024-01-18 12:51+0200\n"
+"PO-Revision-Date: 2024-01-18 13:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: classes\n"
+"X-Poedit-SearchPathExcluded-1: docs\n"
+"X-Poedit-SearchPathExcluded-2: locale\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+
+#: controllers/404.php:7
+msgid "Page not found"
+msgstr "Η σελίδα δεν βρέθηκε"
+
+#: controllers/accounts/index.php:124 controllers/accounts/view.php:167
+#: views/accounts/index.php:8
+msgid "Game accounts"
+msgstr "Λογαριασμοί"
+
+#: controllers/accounts/view.php:22
+#, php-format
+msgid "Account %s was not found."
+msgstr "Το account %s δεν βρέθηκε."
+
+#: controllers/accounts/view.php:32
+#, fuzzy
+#| msgid ""
+#| "Your password must only contain letters from A to Z, numbers from 0 to 9 "
+#| "and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgid ""
+"The new password must only contain letters from A to Z, numbers from 0 to 9 "
+"and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Ο κωδικός πρόσβασής σας πρέπει να περιέχει μόνο λατινικά γράμματα από το A "
+"έως το Z, αριθμούς από το 0 έως το 9 και τους ακόλουθους ειδικούς "
+"χαρακτήρες: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/accounts/view.php:40
+#, fuzzy
+#| msgid "Your password must be between 6 and 20 characters long."
+msgid "The new password must be between 6 and 20 characters long."
+msgstr "Ο κωδικός πρόσβασής σας πρέπει να αποτελείται από 6 έως 20 χαρακτήρες."
+
+#: controllers/accounts/view.php:49
+msgid "The account's password was changed."
+msgstr "Ο κωδικός του λογαριασμού άλλαξε."
+
+#: controllers/accounts/view.php:59 controllers/change-email.php:23
+msgid "The email you typed is the same."
+msgstr "Το email που καταχωρήσατε είναι το ίδιο."
+
+#: controllers/accounts/view.php:68
+msgid "The account's email was changed."
+msgstr "Το email του λογαριασμού άλλαξε."
+
+#: controllers/accounts/view.php:77
+msgid "The account's access level was changed."
+msgstr "Το access level του λογαριασμού άλλαξε."
+
+#: controllers/change-email.php:7 views/change-email.php:8
+#: views/common/header.php:63
+msgid "Change your email"
+msgstr "Αλλάξτε το email σας"
+
+#: controllers/change-email.php:15
+msgid "Your email was changed."
+msgstr "Το email σας άλλαξε."
+
+#: controllers/change-email.php:45
+msgid "The code your provided is wrong."
+msgstr "Ο κωδικός που πληκτρολογήσατε είναι λάθος."
+
+#: controllers/change-email.php:45
+msgid "Start over"
+msgstr "Έναρξη από την αρχή"
+
+#: controllers/change-email.php:75
+msgid ""
+"We could not send you an email to verify that you have access to your "
+"current email."
+msgstr ""
+"Δεν μπορέσαμε να σας στείλουμε email για να επαληθεύσουμε ότι έχετε πρόσβαση "
+"στο τρέχον email σας."
+
+#: controllers/change-password.php:7 views/accounts/view.php:65
+#: views/change-password.php:8
+msgid "Change password"
+msgstr "Αλλαγή κωδικού"
+
+#: controllers/change-password.php:14
+msgid "Your current password is wrong."
+msgstr "Ο τρέχων κωδικός σας είναι λάθος."
+
+#: controllers/change-password.php:20
+msgid "Your account is banned. You cannot change your password."
+msgstr "Ο λογαριασμός σας έχει αποκλειστεί. Δεν μπορείτε να αλλάξετε τον κωδικό σας."
+
+#: controllers/change-password.php:22 controllers/reset-password.php:51
+#, fuzzy
+#| msgid "Your passwords do not match. Type the same password twice."
+msgid "Your new passwords do not match."
+msgstr ""
+"Οι κωδικοί σας δεν ταιριάζουν. Πληκτρολογήστε τον ίδιο κωδικό πρόσβασης δύο "
+"φορές."
+
+#: controllers/change-password.php:30 controllers/reset-password.php:59
+#, fuzzy
+#| msgid ""
+#| "Your password must only contain letters from A to Z, numbers from 0 to 9 "
+#| "and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgid ""
+"Your new password must only contain letters from A to Z, numbers from 0 to 9 "
+"and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Ο κωδικός πρόσβασής σας πρέπει να περιέχει μόνο λατινικά γράμματα από το A "
+"έως το Z, αριθμούς από το 0 έως το 9 και τους ακόλουθους ειδικούς "
+"χαρακτήρες: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/change-password.php:38 controllers/reset-password.php:67
+#, fuzzy
+#| msgid "Your password must be between 6 and 20 characters long."
+msgid "Your new password must be between 6 and 20 characters long."
+msgstr "Ο κωδικός πρόσβασής σας πρέπει να αποτελείται από 6 έως 20 χαρακτήρες."
+
+#: controllers/change-password.php:47
+msgid "Your password was changed."
+msgstr "Ο κωδικός σας άλλαξε."
+
+#: controllers/characters/index.php:127 controllers/characters/view.php:79
+#: controllers/index.php:7 views/characters/index.php:8
+#: views/common/header.php:20 views/common/header.php:85 views/index.php:8
+msgid "Characters"
+msgstr "Χαρακτήρες"
+
+#: controllers/characters/view.php:22
+msgid "Character not found."
+msgstr "Ο χαρακτήρας δεν βρέθηκε."
+
+#: controllers/characters/view.php:33
+msgid "The player is online. He/she must first log it out of the game."
+msgstr "Ο χαρακτήρας είναι συνδεδεμένος. Θα πρέπει πρώτα να τον αποσυνδέσετε."
+
+#: controllers/characters/view.php:41
+msgid "The character has been teleported to Giran Castle Town."
+msgstr "Ο χαρακτήρας μεταφέρθηκε στην Giran Castle Town."
+
+#: controllers/characters/view.php:51
+msgid "The character's access level was changed."
+msgstr "Το access level του χαρακτήρα άλλαξε."
+
+#: controllers/characters/view.php:66
+#, php-format
+msgid "You have send the item with ID %s (x %s) to the character"
+msgstr "Στείλατε το item με ID %s (x %s) στον χαρακτήρα"
+
+#: controllers/donate.php:7 views/common/header.php:35 views/donate.php:8
+#: views/donate.php:58 views/donate.php:147
+msgid "Donate"
+msgstr "Δωρεά"
+
+#: controllers/donate.php:25
+msgid ""
+"Thank you very much for your donation. You will receive the items "
+"automatically as soon as your payment is processed."
+msgstr ""
+"Σας ευχαριστούμε πολύ για την δωρεά σας. Θα λάβετε αυτόματα τα items σας "
+"μόλις επαληθευτεί η πληρωμή σας."
+
+#: controllers/donate.php:57 controllers/login.php:42
+#: controllers/settings.php:105 controllers/settings.php:141
+#: controllers/settings.php:227 controllers/settings.php:247
+msgid "Something went wrong."
+msgstr "Κάτι πήγε στραβά."
+
+#: controllers/donate.php:124 controllers/donate.php:135
+msgid ""
+"We could not proccess your information. Please contact an administrator and "
+"ask him to check the Stripe integration."
+msgstr ""
+"Δεν μπορέσαμε να επεξεργαστούμε τις πληροφορίες σας. Επικοινωνήστε με έναν "
+"διαχειριστή και ζητήστε του να ελέγξει την διασύνδεση Stripe."
+
+#: controllers/donations-history.php:7 views/donations-history.php:8
+msgid "Donations History"
+msgstr "Ιστορικό Δωρεών"
+
+#: controllers/index.php:19
+msgid "Character does not exist."
+msgstr "Ο χαρακτήρας δεν βρέθηκε."
+
+#: controllers/index.php:29
+msgid "Your account is banned. You cannot use this function."
+msgstr "Ο λογαριασμός σας έχει αποκλειστεί. Δεν μπορείτε να χρησιμοποιήσετε αυτή τη λειτουργία."
+
+#: controllers/index.php:39
+msgid "This character is banned. You cannot use this function."
+msgstr "Ο χαρακτήρας σας έχει αποκλειστεί. Δεν μπορείτε να χρησιμοποιήσετε αυτή τη λειτουργία."
+
+#: controllers/index.php:49
+msgid "Your character is online. You must first log it out of the game."
+msgstr "Ο χαρακτήρας είναι συνδεδεμένος. Θα πρέπει πρώτα να τον αποσυνδέσετε."
+
+#: controllers/index.php:59
+msgid "You must be at least level 20 to use this function."
+msgstr "Πρέπει να έχετε τουλάχιστον επίπεδο 20 για να χρησιμοποιήσετε αυτή τη λειτουργία."
+
+#: controllers/index.php:72
+msgid "You can only use this function once every 30 minutes."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε αυτήν τη λειτουργία μόνο μία φορά κάθε 30 λεπτά."
+
+#: controllers/index.php:90
+msgid "Your character has been teleported to Giran Castle Town."
+msgstr "Ο χαρακτήρας σας έχει τηλεμεταφερθεί στο Giran Castle Town."
+
+#: controllers/login-history.php:51
+msgid "Website"
+msgstr "Ιστοσελίδα"
+
+#: controllers/login-history.php:53
+msgid "Game"
+msgstr "Παιχνιδί"
+
+#: controllers/login-history.php:65
+msgid "Login History"
+msgstr "Ιστορικό Σύνδεσης"
+
+#: controllers/login.php:49
+msgid "You have tried to login too many times. Try again in a few minutes."
+msgstr ""
+"Έχετε προσπαθήσει να συνδεθείτε πάρα πολλές φορές. Δοκιμάστε ξανά σε λίγα "
+"λεπτά."
+
+#: controllers/login.php:62
+msgid "The account name or password is wrong."
+msgstr "Το όνομα λογαριασμού ή ο κωδικός πρόσβασης είναι λάθος."
+
+#: controllers/login.php:69
+msgid ""
+"Your account is not verified, but it is not linked to an email. Please "
+"contact an Administrator."
+msgstr ""
+"Ο λογαριασμός σας δεν έχει επαληθευτεί, αλλά δεν είναι συνδεδεμένος με "
+"email. Επικοινωνήστε με έναν Διαχειριστή."
+
+#: controllers/login.php:100
+#, php-format
+msgid "Verify your account %s"
+msgstr "Επαληθεύστε τον λογαριασμό σας %s"
+
+#: controllers/login.php:104
+msgid "Your account is not verified. We sent you an email with instructions."
+msgstr ""
+"Ο λογαριασμός σας δεν έχει επαληθευτεί. Σας στείλαμε ένα email με οδηγίες."
+
+#: controllers/login.php:108
+msgid ""
+"Your account is not verified. Please check your inbox to find the "
+"verification email."
+msgstr ""
+"Ο λογαριασμός σας δεν έχει επαληθευτεί. Ελέγξτε τα εισερχόμενά σας για να "
+"βρείτε το email επαλήθευσης."
+
+#: controllers/login.php:114 controllers/reset-password.php:29
+msgid "Your account is banned."
+msgstr "Ο λογαριασμός σας είναι αποκλεισμένος."
+
+#: controllers/login.php:149
+msgid "Registrations are currently closed."
+msgstr "Οι εγγραφές έχουν κλείσει αυτή τη στιγμή."
+
+#: controllers/login.php:154
+msgid ""
+"Your account's name must only contain letters from A to Z and numbers from 0 "
+"to 9."
+msgstr ""
+"Το όνομα του λογαριασμού σας πρέπει να περιέχει μόνο λατινικά γράμματα από "
+"το A έως το Z και αριθμούς από το 0 έως το 9."
+
+#: controllers/login.php:159
+msgid "Your account's name must be between 4 and 14 characters long."
+msgstr ""
+"Το όνομα του λογαριασμού σας πρέπει να αποτελείται από 4 έως 14 χαρακτήρες."
+
+#: controllers/login.php:164
+msgid "Your passwords do not match. Type the same password twice."
+msgstr ""
+"Οι κωδικοί σας δεν ταιριάζουν. Πληκτρολογήστε τον ίδιο κωδικό πρόσβασης δύο "
+"φορές."
+
+#: controllers/login.php:169
+msgid ""
+"Your password must only contain letters from A to Z, numbers from 0 to 9 and "
+"the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Ο κωδικός πρόσβασής σας πρέπει να περιέχει μόνο λατινικά γράμματα από το A "
+"έως το Z, αριθμούς από το 0 έως το 9 και τους ακόλουθους ειδικούς "
+"χαρακτήρες: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/login.php:174
+msgid "Your password must be between 6 and 20 characters long."
+msgstr "Ο κωδικός πρόσβασής σας πρέπει να αποτελείται από 6 έως 20 χαρακτήρες."
+
+#: controllers/login.php:179
+msgid "The provided e-mail address is incorrect."
+msgstr "Η διεύθυνση e-mail που δηλώσατε είναι λανθασμένη."
+
+#: controllers/login.php:187
+msgid "This account name already exists."
+msgstr "Αυτό το όνομα λογαριασμού υπάρχει ήδη."
+
+#: controllers/login.php:249
+#, fuzzy
+#| msgid "This account does not exists."
+msgid "This account does not exist."
+msgstr "Αυτός ο λογαριασμός δεν υπάρχει."
+
+#: controllers/login.php:254
+msgid "This account is not associated with an email."
+msgstr "Αυτός ο λογαριασμός δεν σχετίζεται με email."
+
+#: controllers/login.php:259
+msgid "This account is banned."
+msgstr "Αυτός ο λογαριασμός είναι αποκλεισμένος."
+
+#: controllers/login.php:294
+#, php-format
+msgid "Reset your password for account %s"
+msgstr "Επαναφέρετε τον κωδικό του λογαριασμού %s"
+
+#: controllers/login.php:312 views/login.php:47
+#, php-format
+msgid "Login to %s"
+msgstr "Συνδεθείτε στο %s"
+
+#: controllers/payments.php:82 views/accounts/view.php:212
+#: views/characters/view.php:96 views/donations-history.php:51
+#: views/payments.php:63
+msgid "Pending"
+msgstr "Σε αναμονή"
+
+#: controllers/payments.php:84 views/accounts/view.php:214
+#: views/characters/view.php:98 views/donations-history.php:53
+#: views/payments.php:64
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: controllers/reset-password.php:8 controllers/reset-password.php:20
+#: controllers/reset-password.php:41
+msgid "The reset link has expired."
+msgstr "Ο σύνδεσμος επαναφοράς έχει λήξει."
+
+#: controllers/reset-password.php:76
+msgid "Your password was changed. You may now login."
+msgstr "Ο κωδικός πρόσβασής σας άλλαξε. Μπορείτε τώρα να συνδεθείτε."
+
+#: controllers/reset-password.php:91 views/login.php:111
+#: views/reset-password.php:47
+msgid "Reset your password"
+msgstr "Επαναφορά του κωδικού πρόσβασής σας"
+
+#: controllers/settings.php:23
+msgid "Your general settings have been saved."
+msgstr "Οι γενικές ρυθμίσεις σας έχουν αποθηκευτεί."
+
+#: controllers/settings.php:40
+msgid "Your email settings have been saved."
+msgstr "Οι ρυθμίσεις email σας έχουν αποθηκευτεί."
+
+#: controllers/settings.php:57
+msgid "Your donation settings have been saved."
+msgstr "Οι ρυθμίσεις δωρεάς σας έχουν αποθηκευτεί."
+
+#: controllers/settings.php:80
+msgid "Your item has been added to the donation list."
+msgstr "Το item σας προστέθηκε στη λίστα δωρεών."
+
+#: controllers/settings.php:129
+msgid "Your item has been saved."
+msgstr "Το item σας έχει αποθηκευτεί."
+
+#: controllers/settings.php:149
+msgid "Your item has been removed."
+msgstr "Το item σας έχει αφαιρεθεί."
+
+#: controllers/settings.php:262 views/common/header.php:94 views/settings.php:8
+msgid "ACM Settings"
+msgstr "Ρυθμίσεις ACM"
+
+#: controllers/verify-account.php:8 controllers/verify-account.php:20
+#: controllers/verify-account.php:41
+msgid "The verification link has expired."
+msgstr "Ο σύνδεσμος επαλήθευσης έχει λήξει."
+
+#: controllers/verify-account.php:29
+msgid "Your account is already verified."
+msgstr "Ο λογαριασμός σας έχει ήδη επαληθευτεί."
+
+#: controllers/verify-account.php:54
+msgid "Your account has been verified. You may now login."
+msgstr "Ο λογαριασμός σας έχει επαληθευτεί. Μπορείτε τώρα να συνδεθείτε."
+
+#: views/404.php:38
+msgid "Page was not found..."
+msgstr "Η σελίδα δεν βρέθηκε..."
+
+#: views/404.php:39
+msgid "Go back"
+msgstr "Επιστροφή"
+
+#: views/accounts/index.php:9
+msgid "This is a list of all the accounts."
+msgstr "Αυτή είναι μια λίστα με όλους τους λογαριασμούς."
+
+#: views/accounts/index.php:18
+msgid "List of accounts"
+msgstr "Λίστα λογαριασμών"
+
+#: views/accounts/index.php:19 views/characters/index.php:19
+#: views/payments.php:14
+msgid "Filters"
+msgstr "Φίλτρα"
+
+#: views/accounts/index.php:26 views/accounts/index.php:36
+#: views/accounts/index.php:69 views/accounts/view.php:33
+#: views/characters/index.php:75 views/characters/view.php:33
+msgid "Date created"
+msgstr "Ημερομηνία δημιουργίας"
+
+#: views/accounts/index.php:27 views/accounts/index.php:37
+#: views/characters/index.php:27 views/characters/index.php:37
+#: views/characters/view.php:29 views/payments.php:23 views/payments.php:33
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: views/accounts/index.php:28 views/accounts/index.php:38
+#: views/accounts/view.php:88 views/accounts/view.php:97
+#: views/characters/index.php:30 views/characters/index.php:40
+#: views/index.php:30 views/index.php:40
+msgid "Last login"
+msgstr "Τελευταία σύνδεση"
+
+#: views/accounts/index.php:29 views/accounts/index.php:39
+#: views/characters/index.php:31 views/characters/index.php:41
+msgid "Access level"
+msgstr "Επίπεδο πρόσβασης"
+
+#: views/accounts/index.php:30 views/accounts/index.php:40
+msgid "Total characters"
+msgstr "Συνολικοί χαρακτήρες"
+
+#: views/accounts/index.php:31 views/accounts/index.php:41
+#: views/accounts/index.php:65 views/accounts/view.php:41
+msgid "Last IP"
+msgstr "Τελευταία IP"
+
+#: views/accounts/index.php:58 views/characters/index.php:58
+#: views/payments.php:53
+msgid "Search filters"
+msgstr "Φίλτρα αναζήτησης"
+
+#: views/accounts/index.php:72 views/accounts/index.php:83
+#: views/accounts/index.php:94 views/characters/index.php:78
+#: views/characters/index.php:89 views/characters/index.php:100
+#: views/payments.php:80
+msgid "Min"
+msgstr "Από"
+
+#: views/accounts/index.php:75 views/accounts/index.php:86
+#: views/accounts/index.php:97 views/characters/index.php:81
+#: views/characters/index.php:92 views/characters/index.php:103
+#: views/payments.php:83
+msgid "Max"
+msgstr "Έως"
+
+#: views/accounts/index.php:80 views/characters/index.php:86
+msgid "Date logged"
+msgstr "Ημερομηνία σύνδεσης"
+
+#: views/accounts/index.php:103 views/characters/index.php:109
+#: views/donate.php:146 views/payments.php:89 views/reset-password.php:64
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: views/accounts/index.php:104 views/characters/index.php:110
+#: views/payments.php:90
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: views/accounts/view.php:9
+msgid "Edit the information of the account."
+msgstr "Επεξεργαστείτε τις πληροφορίες του λογαριασμού."
+
+#: views/accounts/view.php:20
+msgid "Account information"
+msgstr "Στοιχεία λογαριασμού"
+
+#: views/accounts/view.php:45
+msgid "Last Online Date"
+msgstr "Πρόσφατη σύνδεση"
+
+#: views/accounts/view.php:49
+msgid "Accounts with the same IP"
+msgstr "Λογαριασμοί με την ίδια IP"
+
+#: views/accounts/view.php:63 views/characters/view.php:53 views/donate.php:28
+#: views/donate.php:36 views/index.php:31 views/index.php:41
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: views/accounts/view.php:66
+msgid "Change email"
+msgstr "Αλλαγή email"
+
+#: views/accounts/view.php:67 views/characters/view.php:56
+msgid "Change access level"
+msgstr "Αλλαγή access level"
+
+#: views/accounts/view.php:77 views/characters/index.php:18
+msgid "List of characters"
+msgstr "Λίστα χαρακτήρων"
+
+#: views/accounts/view.php:84 views/accounts/view.php:93
+#: views/characters/index.php:26 views/characters/index.php:36
+#: views/characters/view.php:25 views/index.php:26 views/index.php:36
+msgid "Name"
+msgstr "Όνομα"
+
+#: views/accounts/view.php:85 views/accounts/view.php:94
+#: views/accounts/view.php:191 views/accounts/view.php:200
+#: views/characters/view.php:49 views/characters/view.php:76
+#: views/characters/view.php:84 views/donations-history.php:30
+#: views/donations-history.php:39 views/index.php:27 views/index.php:37
+#: views/payments.php:26 views/payments.php:36 views/payments.php:60
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: views/accounts/view.php:86 views/accounts/view.php:95
+#: views/characters/index.php:28 views/characters/index.php:38
+#: views/index.php:28 views/index.php:38
+msgid "Class"
+msgstr "Class"
+
+#: views/accounts/view.php:87 views/accounts/view.php:96
+#: views/characters/index.php:29 views/characters/index.php:39
+#: views/index.php:29 views/index.php:39
+msgid "Level"
+msgstr "Level"
+
+#: views/accounts/view.php:108 views/characters/view.php:50 views/index.php:52
+msgid "Offline"
+msgstr "Αποσυνδεδεμένος"
+
+#: views/accounts/view.php:110 views/characters/view.php:50 views/index.php:54
+msgid "Online"
+msgstr "Συνδεδεμένος"
+
+#: views/accounts/view.php:112 views/index.php:56
+msgid "Banned"
+msgstr "Αποκλεισμένος"
+
+#: views/accounts/view.php:136 views/common/header.php:190
+#: views/login-history.php:8 views/login-history.php:13
+msgid "Login history"
+msgstr "Ιστορικό σύνδεσης"
+
+#: views/accounts/view.php:143 views/accounts/view.php:150
+#: views/accounts/view.php:187 views/accounts/view.php:196
+#: views/characters/view.php:73 views/characters/view.php:81
+#: views/donations-history.php:26 views/donations-history.php:35
+#: views/login-history.php:20 views/login-history.php:27 views/payments.php:21
+#: views/payments.php:31 views/payments.php:77
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: views/accounts/view.php:145 views/accounts/view.php:152
+#: views/login-history.php:22 views/login-history.php:29
+msgid "Login type"
+msgstr "Τύπος σύνδεσης"
+
+#: views/accounts/view.php:180 views/characters/view.php:66
+msgid "Donation history"
+msgstr "Ιστορικό δωρεών"
+
+#: views/accounts/view.php:188 views/accounts/view.php:197
+#: views/donations-history.php:27 views/donations-history.php:36
+#: views/payments.php:22 views/payments.php:32
+msgid "Character"
+msgstr "Χαρακτήρας"
+
+#: views/accounts/view.php:189 views/accounts/view.php:198
+#: views/characters/view.php:74 views/characters/view.php:82
+#: views/donate.php:101 views/donations-history.php:28
+#: views/donations-history.php:37 views/payments.php:24 views/payments.php:34
+msgid "Item"
+msgstr "Αντικείμενο"
+
+#: views/accounts/view.php:190 views/accounts/view.php:199
+#: views/characters/view.php:75 views/characters/view.php:83
+#: views/donate.php:129 views/donations-history.php:29
+#: views/donations-history.php:38 views/payments.php:25 views/payments.php:35
+#: views/payments.php:68
+msgid "Payment method"
+msgstr "Τρόπος πληρωμής"
+
+#: views/accounts/view.php:208 views/characters/view.php:92
+msgid "This account hasn't made any donations."
+msgstr "Αυτός ο λογαριασμός δεν έχει κάνει δωρεές."
+
+#: views/accounts/view.php:242
+msgid "Change the account's password"
+msgstr "Αλλάξτε τον κωδικό πρόσβασης του λογαριασμού"
+
+#: views/accounts/view.php:249 views/change-password.php:27
+msgid "New password"
+msgstr "Νέος κωδικός"
+
+#: views/accounts/view.php:250
+msgid "Type the new password"
+msgstr "Πληκτρολογήστε τον νέο κωδικό πρόσβασης"
+
+#: views/accounts/view.php:252
+#, fuzzy
+#| msgid ""
+#| "Your password must only contain letters from A to Z, numbers from 0 to 9 "
+#| "and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgid ""
+"The new password must be 6-20 characters long and only contain letters from "
+"A to Z, numbers from 0 to 9 and the following special characters: . ! @ # $ "
+"% ^ & * ( ) - + = _ /"
+msgstr ""
+"Ο κωδικός πρόσβασής σας πρέπει να περιέχει μόνο λατινικά γράμματα από το A "
+"έως το Z, αριθμούς από το 0 έως το 9 και τους ακόλουθους ειδικούς "
+"χαρακτήρες: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: views/accounts/view.php:255 views/accounts/view.php:279
+#: views/accounts/view.php:303 views/characters/view.php:141
+#: views/characters/view.php:165 views/settings.php:359 views/settings.php:426
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: views/accounts/view.php:256 views/accounts/view.php:280
+#: views/accounts/view.php:304
+msgid "Save changes"
+msgstr "Αποθήκευση"
+
+#: views/accounts/view.php:267
+msgid "Change the account's email"
+msgstr "Αλλάξτε το email του λογαριασμού"
+
+#: views/accounts/view.php:274 views/change-email.php:48
+msgid "New email"
+msgstr "Νέο email"
+
+#: views/accounts/view.php:275
+msgid "Type the new email"
+msgstr "Πληκτρολογήστε τη νέα διεύθυνση email"
+
+#: views/accounts/view.php:291
+msgid "Change the account's access level"
+msgstr "Αλλάξτε το επίπεδο πρόσβασης του λογαριασμού"
+
+#: views/accounts/view.php:298 views/characters/view.php:160
+msgid "New access level"
+msgstr "Νέο access level"
+
+#: views/accounts/view.php:299 views/characters/view.php:161
+msgid "Type the new access level"
+msgstr "Πληκτρολογήστε την νέα τιμή του access level"
+
+#: views/change-email.php:9
+msgid "Fill in the following form in order to change your email."
+msgstr "Συμπληρώστε την παρακάτω φόρμα για να αλλάξετε το email σας."
+
+#: views/change-email.php:19
+msgid "Approve this change"
+msgstr "Εγκρίνετε αυτήν την αλλαγή"
+
+#: views/change-email.php:25
+msgid "Your new email"
+msgstr "Το νέο σας emailΤο email σας"
+
+#: views/change-email.php:29
+msgid "6-digit confirmation code"
+msgstr "6ψήφιος κωδικός επιβεβαίωσης"
+
+#: views/change-email.php:30
+#, php-format
+msgid "Type the code we sent to %s"
+msgstr "Πληκτρολογήστε τον κωδικό που στείλαμε στο %s"
+
+#: views/change-email.php:32
+msgid ""
+"We sent you an email with a unique 6-digit confirmation code to your current "
+"email."
+msgstr ""
+"Σας στείλαμε ένα email με έναν μοναδικό 6ψήφιο κωδικό επιβεβαίωσης στο "
+"τρέχον email σας."
+
+#: views/change-email.php:33
+msgid "Complete"
+msgstr "Ολοκλήρωση"
+
+#: views/change-email.php:39
+msgid "Set up your new email"
+msgstr "Ρυθμίστε το νέο σας email"
+
+#: views/change-email.php:44
+msgid "Your current email"
+msgstr "Το τρέχον email σας"
+
+#: views/change-email.php:49
+msgid "Type your new email"
+msgstr "Πληκτρολογήστε το νέο σας email"
+
+#: views/change-email.php:51 views/change-password.php:35
+#: views/characters/view.php:142 views/characters/view.php:166
+#: views/settings.php:82 views/settings.php:161 views/settings.php:236
+#: views/settings.php:360 views/settings.php:427
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: views/change-password.php:9
+msgid "Fill in the following form in order to change your password."
+msgstr ""
+"Συμπληρώστε την παρακάτω φόρμα για να αλλάξετε τον κωδικό πρόσβασής σας."
+
+#: views/change-password.php:18
+msgid "Set up a new password"
+msgstr "Ορίστε έναν νέο κωδικό πρόσβασης"
+
+#: views/change-password.php:23
+msgid "Current password"
+msgstr "Τρέχων κωδικός πρόσβασης"
+
+#: views/change-password.php:24
+msgid "Type your current password"
+msgstr "Πληκτρολογήστε τον τρέχων κωδικό πρόσβασης"
+
+#: views/change-password.php:28
+msgid "Type your new password"
+msgstr "Πληκτρολογήστε τον νέο σας κωδικό"
+
+#: views/change-password.php:31
+msgid "New password (Repeat)"
+msgstr "Επαναπληκτρολογήστε τον νέο σας κωδικό"
+
+#: views/change-password.php:32 views/reset-password.php:56
+msgid "Retype your new password"
+msgstr "Επαναπληκτρολογήστε τον νέο σας κωδικό"
+
+#: views/change-password.php:34
+#, fuzzy
+#| msgid ""
+#| "Your password must only contain letters from A to Z, numbers from 0 to 9 "
+#| "and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgid ""
+"Your new password must be 6-20 characters long and only contain letters from "
+"A to Z, numbers from 0 to 9 and the following special characters: . ! @ # $ "
+"% ^ & * ( ) - + = _ /"
+msgstr ""
+"Ο κωδικός πρόσβασής σας πρέπει να περιέχει μόνο λατινικά γράμματα από το A "
+"έως το Z, αριθμούς από το 0 έως το 9 και τους ακόλουθους ειδικούς "
+"χαρακτήρες: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: views/characters/index.php:9
+msgid "This is a list of all the characters."
+msgstr "Αυτή είναι η  λίστα με όλους τους χαρακτήρες."
+
+#: views/characters/index.php:67 views/payments.php:62 views/payments.php:70
+msgid "All"
+msgstr "Όλα"
+
+#: views/characters/view.php:9
+msgid "Edit the information of the character."
+msgstr "Επεξεργαστείτε τις πληροφορίες του χαρακτήρα."
+
+#: views/characters/view.php:20
+msgid "Character information"
+msgstr "Πληροφορίες χαρακτήρα"
+
+#: views/characters/view.php:45
+msgid "Last Online"
+msgstr "Τελευταία σύνδεση"
+
+#: views/characters/view.php:55
+msgid "Send an item"
+msgstr "Στείλτε ένα αντικείμενο"
+
+#: views/characters/view.php:125
+msgid "Send an item to the character"
+msgstr "Στείλτε ένα αντικείμενο στον χαρακτήρα"
+
+#: views/characters/view.php:132 views/settings.php:252 views/settings.php:262
+#: views/settings.php:314 views/settings.php:379
+msgid "Item ID"
+msgstr "Item ID"
+
+#: views/characters/view.php:133
+msgid "Type the item's ID"
+msgstr "Πληκτρολογήστε το ID του αντικειμένου"
+
+#: views/characters/view.php:136 views/donate.php:26 views/donate.php:34
+#: views/donate.php:111 views/settings.php:254 views/settings.php:264
+#: views/settings.php:328 views/settings.php:393
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: views/characters/view.php:137
+msgid "Type the desired quantity"
+msgstr "Εισάγετε την επιθυμητή ποσότητα"
+
+#: views/characters/view.php:153
+msgid "Change the character's access level"
+msgstr "Αλλάξτε το access level του χαρακτήρα"
+
+#: views/common/header.php:29
+msgid "Donations"
+msgstr "Δωρεές"
+
+#: views/common/header.php:42
+msgid "Donations history"
+msgstr "Ιστορικό δωρεών"
+
+#: views/common/header.php:51
+msgid "Account settings"
+msgstr "Ρυθμίσεις λογαριασμού"
+
+#: views/common/header.php:57
+msgid "Change your password"
+msgstr "Αλλάξτε τον κωδικό σας"
+
+#: views/common/header.php:72
+msgid "Administration"
+msgstr "Διαχείριση"
+
+#: views/common/header.php:80
+msgid "Game data"
+msgstr "Παιχνίδι"
+
+#: views/common/header.php:84
+msgid "Accounts"
+msgstr "Λογαριασμοί"
+
+#: views/common/header.php:102
+msgid "Payments history"
+msgstr "Ιστορικό πληρωμών"
+
+#: views/common/header.php:110
+msgid "Server status"
+msgstr "Κατάσταση server"
+
+#: views/common/header.php:124
+msgid "Online players"
+msgstr "Συνδεδεμένοι παιχτες"
+
+#: views/common/header.php:128
+msgid "Online GMs"
+msgstr "Συνδεδεμένοι GMs"
+
+#: views/common/header.php:195
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: views/donate.php:9
+#, php-format
+msgid "Donate to %s and help our server grow."
+msgstr "Κάντε δωρεά στον %s και βοηθήστε τον server μας να αναπτυχθεί."
+
+#: views/donate.php:18
+msgid "Available items and services for donation"
+msgstr "Διαθέσιμα είδη και υπηρεσίες για δωρεά"
+
+#: views/donate.php:25 views/donate.php:33
+msgid "Item / Service"
+msgstr "Αντικείμενο"
+
+#: views/donate.php:27 views/donate.php:35 views/donate.php:125
+#: views/settings.php:255 views/settings.php:265 views/settings.php:334
+#: views/settings.php:399
+msgid "Price"
+msgstr "Τιμή"
+
+#: views/donate.php:44
+msgid "There are no items available for donation right now."
+msgstr "Δεν υπάρχουν διαθέσιμα αντικείμενα για δωρεά αυτήν τη στιγμή."
+
+#: views/donate.php:49 views/index.php:49
+msgid "You haven't created any characters."
+msgstr "Δεν έχετε δημιουργήσει κανέναν χαρακτήρα."
+
+#: views/donate.php:71
+msgid "Terms of service"
+msgstr "Όροι χρήσης και πολιτική δωρεών"
+
+#: views/donate.php:84
+#, php-format
+msgid "Donate to %s"
+msgstr "Κάντε μια δωρεά στον %s"
+
+#: views/donate.php:91
+msgid "Select your character"
+msgstr "Επιλέξτε τον χαρακτήρα σας"
+
+#: views/donate.php:93
+msgid "Choose your character"
+msgstr "Επιλέξτε τον χαρακτήρα σας"
+
+#: views/donate.php:106
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: views/donate.php:131
+msgid "Choose a method to pay"
+msgstr "Επιλέξτε τρόπο πληρωμής"
+
+#: views/donate.php:140
+msgid ""
+"I have read and I agree with the Terms of Service that are shown on this "
+"page."
+msgstr ""
+"Έχω διαβάσει και συμφωνώ με τους Όρους Παροχής Υπηρεσιών που εμφανίζονται σε "
+"αυτήν τη σελίδα."
+
+#: views/donate.php:142
+msgid ""
+"You will be redirected to the payment gateway's secure invironment. We do "
+"not store any of your payments information."
+msgstr ""
+"Θα ανακατευθυνθείτε στο ασφαλές περιβάλλον της πύλης πληρωμής. Δεν "
+"αποθηκεύουμε καμία από τις πληροφορίες πληρωμών σας."
+
+#: views/donations-history.php:9
+msgid ""
+"This is a list with all your donation history. Thank you very much for your "
+"support!"
+msgstr ""
+"Αυτή είναι μια λίστα με όλο το ιστορικό δωρεών σας. Σας ευχαριστώ πολύ για "
+"την υποστήριξή σας!"
+
+#: views/donations-history.php:19
+msgid "Your past donations"
+msgstr "Οι προηγούμενες δωρεές σας"
+
+#: views/donations-history.php:47
+msgid "You haven't made any donations."
+msgstr "Δεν έχετε κάνει καμία δωρεά."
+
+#: views/index.php:9
+msgid ""
+"This is the list of your characters. If a character gets stucked upon login, "
+"you can unstuck and repair it."
+msgstr ""
+"Αυτή είναι η λίστα με τους χαρακτήρες σας. Εάν ένας χαρακτήρας κολλήσει κατά "
+"τη σύνδεση, μπορείτε να τον ξεκολλήσετε και να τον επιδιορθώσετε."
+
+#: views/index.php:19
+msgid "Your characters"
+msgstr "Οι χαρακτήρες σας"
+
+#: views/login-history.php:9
+msgid "This is all the times someone has logged in using your account."
+msgstr ""
+"Είναι όλες οι φορές που κάποιος έχει συνδεθεί χρησιμοποιώντας τον λογαριασμό "
+"σας."
+
+#: views/login-history.php:21 views/login-history.php:28
+msgid "IP"
+msgstr ""
+
+#: views/login.php:51 views/login.php:83 views/login.php:116
+msgid "Account name"
+msgstr "Όνομα χρήστη"
+
+#: views/login.php:55
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: views/login.php:60
+msgid "Remember Me"
+msgstr "Να με θυμάσαι"
+
+#: views/login.php:64
+msgid "Login"
+msgstr "Είσοδος"
+
+#: views/login.php:69
+msgid "Forgot Password?"
+msgstr "Ξεχάσατε τον κωδικό σας;"
+
+#: views/login.php:72
+msgid "Create a new account"
+msgstr "Δημιουργία νέου λογαριασμού"
+
+#: views/login.php:79
+#, php-format
+msgid "Register at %s"
+msgstr "Εγγραφείτε στο %s"
+
+#: views/login.php:87
+msgid "Set a password"
+msgstr "Ορίστε έναν κωδικό"
+
+#: views/login.php:91
+msgid "Retype your password"
+msgstr "Ξαναγράψτε τον κωδικό"
+
+#: views/login.php:95
+msgid "Your email"
+msgstr "Το email σας"
+
+#: views/login.php:98
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: views/login.php:100
+msgid ""
+"Your account has been created, but it requires verification. We have sent "
+"you an email with a link to verify your account."
+msgstr ""
+"Ο λογαριασμός σας δημιουργήθηκε, αλλά απαιτεί επαλήθευση. Σας έχουμε στείλει "
+"ένα email με έναν σύνδεσμο για την επαλήθευση του λογαριασμού σας."
+
+#: views/login.php:104 views/login.php:126
+msgid "Back to login"
+msgstr "Πίσω στην σύνδεση"
+
+#: views/login.php:115
+msgid "Type your account's name"
+msgstr "Πληκτρολογήστε το όνομα του λογαριασμού σας"
+
+#: views/login.php:120
+msgid "Reset password"
+msgstr "Επαναφορά κωδικού πρόσβασης"
+
+#: views/login.php:122
+msgid "We have sent you an email with a link to change your password."
+msgstr ""
+"Σας έχουμε στείλει ένα email με έναν σύνδεσμο για να αλλάξετε τον κωδικό "
+"πρόσβασής σας."
+
+#: views/login.php:147
+msgid "Back to main website"
+msgstr "Επιστροφή στον κύριο ιστότοπο"
+
+#: views/login.php:159
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: views/login.php:162 views/login.php:183 views/login.php:203
+#: views/login.php:219
+msgid "Something went wrong. Please try again."
+msgstr "Κάτι πήγε στραβά. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+
+#: views/payments.php:8
+msgid "Payments History"
+msgstr "Ιστορικό Πληρωμών"
+
+#: views/payments.php:9
+msgid "This is a list with all the payments made by users."
+msgstr ""
+"Αυτή είναι μια λίστα με όλες τις πληρωμές που πραγματοποιούν οι χρήστες."
+
+#: views/payments.php:13
+msgid "List of payments"
+msgstr "Λίστα πληρωμών"
+
+#: views/reset-password.php:52
+msgid "Your new password"
+msgstr "Ο νέος σας κωδικός"
+
+#: views/reset-password.php:59
+msgid "Set new password"
+msgstr "Ορίστε έναν νέο κωδικό"
+
+#: views/settings.php:9
+msgid "Edit the settings of L2jMobius ACM."
+msgstr "Επεξεργαστείτε τις ρυθμίσεις του L2jMobius ACM."
+
+#: views/settings.php:20
+msgid "Email settings"
+msgstr "Ρυθμίσεις email"
+
+#: views/settings.php:25
+msgid "Your email address"
+msgstr "Το email σας"
+
+#: views/settings.php:26
+msgid "Enter your email"
+msgstr "Εισάγετε το email σας"
+
+#: views/settings.php:27
+msgid "This will be the sender for all system emails."
+msgstr ""
+"Αυτός θα είναι ο αποστολέας για όλα τα μηνύματα ηλεκτρονικού ταχυδρομείου "
+"του συστήματος."
+
+#: views/settings.php:30
+msgid "How will you send the emails?"
+msgstr "Πώς θα στείλετε τα email;"
+
+#: views/settings.php:90
+msgid "General settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: views/settings.php:95
+msgid "Default language"
+msgstr "Προεπιλεγμένη γλώσσα"
+
+#: views/settings.php:106
+msgid "Allow account creations?"
+msgstr "Να επιτρέπεται η δημιουργία λογαριασμών;"
+
+#: views/settings.php:108 views/settings.php:116 views/settings.php:127
+#: views/settings.php:135 views/settings.php:142 views/settings.php:149
+#: views/settings.php:156 views/settings.php:177 views/settings.php:199
+#: views/settings.php:224 views/settings.php:225 views/settings.php:274
+#: views/settings.php:346 views/settings.php:411
+msgid "Yes"
+msgstr "Ναι"
+
+#: views/settings.php:109 views/settings.php:115 views/settings.php:126
+#: views/settings.php:134 views/settings.php:141 views/settings.php:148
+#: views/settings.php:155 views/settings.php:176 views/settings.php:198
+#: views/settings.php:223 views/settings.php:279 views/settings.php:345
+#: views/settings.php:410
+msgid "No"
+msgstr "Όχι"
+
+#: views/settings.php:113
+msgid "Require account email verification?"
+msgstr "Απαιτείται επαλήθευση email λογαριασμού;"
+
+#: views/settings.php:120
+msgid "Your server's main website"
+msgstr "Ο κύριος ιστότοπος του server σας"
+
+#: views/settings.php:124
+msgid "Display server's stats?"
+msgstr "Εμφάνιση στατιστικών του server;"
+
+#: views/settings.php:132
+msgid "Display loginserver's status?"
+msgstr "Εμφάνιση της κατάστασης του loginserver;"
+
+#: views/settings.php:139
+msgid "Display gameserver's status?"
+msgstr "Εμφάνιση της κατάστασης του gameserver;"
+
+#: views/settings.php:146
+msgid "Display online player count?"
+msgstr "Εμφάνιση συνδεδεμένων παιχτών;"
+
+#: views/settings.php:153
+msgid "Display online GM count?"
+msgstr "Εμφάνιση συνδεδεμένων GM;"
+
+#: views/settings.php:169
+msgid "Donation settings"
+msgstr "Ρυθμίσεις δωρεών"
+
+#: views/settings.php:174
+msgid "Enable donations?"
+msgstr "Ενεργοποίηση δωρεών"
+
+#: views/settings.php:182
+msgid "Donation currency"
+msgstr "Νόμισμα δωρεών"
+
+#: views/settings.php:191
+msgid "Terms of your service"
+msgstr "Όροι υπηρεσίας"
+
+#: views/settings.php:196
+msgid "Enable Stripe?"
+msgstr "Ενεργοποίηση Stripe;"
+
+#: views/settings.php:211
+msgid ""
+"For security reasons, you have to fill-in your secret key inside your .env "
+"file."
+msgstr ""
+"Για λόγους ασφαλείας, πρέπει να συμπληρώσετε το μυστικό κλειδί σας μέσα στο "
+"αρχείο .env."
+
+#: views/settings.php:217
+msgid ""
+"In order to generate your webhook key you need to type your Endpoint URL in "
+"Stripe."
+msgstr ""
+"Για να δημιουργήσετε το κλειδί webhook σας, πρέπει να πληκτρολογήσετε τη "
+"διεύθυνση URL στο Stripe."
+
+#: views/settings.php:221
+msgid "Enable Paypal?"
+msgstr "Ενεργοποίηση Paypal;"
+
+#: views/settings.php:231
+msgid "Type your Paypal email"
+msgstr "Πληκτρολογήστε το email σας στο Paypal"
+
+#: views/settings.php:244
+msgid "Donation item list"
+msgstr "Λίστα αντικειμένων για δωρεά"
+
+#: views/settings.php:245
+msgid "Add item"
+msgstr "Νέο αντικείμενο"
+
+#: views/settings.php:253 views/settings.php:263
+msgid "Item Name"
+msgstr "Όνομα αντικειμένου"
+
+#: views/settings.php:256 views/settings.php:266
+msgid "Allow multiple"
+msgstr "Επιτρέπεται πολλαπλή αγορά;"
+
+#: views/settings.php:257 views/settings.php:267
+msgid "Max quantity"
+msgstr "Μέγιστη ποσότητα αγοράς"
+
+#: views/settings.php:276
+msgid "Unlimited"
+msgstr "Απεριόριστα"
+
+#: views/settings.php:307
+msgid "Add donation item"
+msgstr "Προσθήκη αντικειμένου δωρεάς"
+
+#: views/settings.php:315 views/settings.php:380
+msgid "Type the item's in-game ID"
+msgstr "Πληκτρολογήστε το ID του αντικειμένου"
+
+#: views/settings.php:318 views/settings.php:383
+msgid "Item's Name"
+msgstr "Όνομα αντικειμένου"
+
+#: views/settings.php:319 views/settings.php:384
+msgid "Type the name of the item"
+msgstr "Πληκτρολογήστε το όνομα του αντικειμένου"
+
+#: views/settings.php:322 views/settings.php:387
+msgid "Item Description (Optional)"
+msgstr "Περιγραφή αντικειμένου (Προαιρετικό)"
+
+#: views/settings.php:323 views/settings.php:388
+msgid "This description will appear on each item"
+msgstr "Αυτή η περιγραφή θα εμφανιστεί κάτω από το όνομα του αντικειμένου."
+
+#: views/settings.php:329
+msgid "Type the item's quantity"
+msgstr "Πληκτρολογήστε την ποσότητα του αντικειμένου."
+
+#: views/settings.php:335 views/settings.php:400
+msgid "Type the price"
+msgstr "Εισάγετε την τιμή"
+
+#: views/settings.php:340 views/settings.php:405
+msgid ""
+"Decimals are allowed by using \".\" for decimal point. The price is not per "
+"item. It refers to the above quantity. For example, if you wish to sell 200 "
+"Αdenas for 1€, you type quantity 200 and price 1. If you want the player to "
+"be able to buy many of these, you can allow multiple orders below. This will "
+"let people buy sets of this listing, like 400 Adenas for 2€."
+msgstr ""
+"Οι δεκαδικοί αριθμοί επιτρέπονται χρησιμοποιώντας το \".\" για υποδιαστολή. "
+"Η τιμή δεν είναι ανά ένα αντικείμενο, αλλά αναφέρεται στην παραπάνω "
+"ποσότητα. Για παράδειγμα, εάν επιθυμείτε να πουλήσετε 200 Adenas για 1€, "
+"πληκτρολογείτε ποσότητα 200 και τιμή 1. Εάν θέλετε ο παίκτης να μπορεί να "
+"αγοράσει πολλά από αυτά, μπορείτε να επιτρέψετε πολλές αγορές  παρακάτω. "
+"Αυτό θα επιτρέψει στους χρήστες να αγοράσουν set αυτής της καταχώρισης, όπως "
+"400 Adenas για 2 €."
+
+#: views/settings.php:343 views/settings.php:408
+msgid "Allow multiple orders"
+msgstr "Επιτρέπεται πολλαπλή αγορά;"
+
+#: views/settings.php:351 views/settings.php:416
+msgid "Maximum order quantity (Optional)"
+msgstr "Μέγιστη ποσότητα παραγγελίας (Προαιρετικό)"
+
+#: views/settings.php:352
+msgid "Leave empty for unlimited"
+msgstr "Αφήστε κενό για απεριόριστο"
+
+#: views/settings.php:354 views/settings.php:419
+msgid ""
+"This is the maximum number a user is allowed to add this item to his "
+"\"cart\". For example, if you are selling 200 Adenas for 1€ above, you can "
+"limit the total number of Adenas to 1000 Adenas by typing the number 5. This "
+"will allow the user to only buy up to 5 times the 200 Adenas pack."
+msgstr ""
+"Αυτός είναι ο μέγιστος αριθμός που επιτρέπεται σε έναν χρήστη να προσθέσει "
+"αυτό το είδος στο \"καλάθι\" του. Για παράδειγμα, εάν πουλάτε 200 Adenas για "
+"1 € παραπάνω, μπορείτε να περιορίσετε τον συνολικό αριθμό των Adenas σε 1000 "
+"Adenas πληκτρολογώντας τον αριθμό 5. Αυτό θα επιτρέψει στον χρήστη να "
+"αγοράσει μόνο έως και 5 φορές το πακέτο των 200 Adenas."
+
+#: views/settings.php:372
+msgid "Edit donation item"
+msgstr "Επεξεργασία αντικειμένου προς δωρεά"
+
+#: views/settings.php:424
+msgid "Delete"
+msgstr "Διαγραφή"

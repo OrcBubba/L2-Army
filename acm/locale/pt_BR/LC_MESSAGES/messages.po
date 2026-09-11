@@ -1,0 +1,1281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: L2jMobius ACM\n"
+"POT-Creation-Date: 2024-01-18 13:18+0200\n"
+"PO-Revision-Date: 2024-04-21 10:21+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: docs\n"
+"X-Poedit-SearchPathExcluded-2: locale\n"
+"X-Poedit-SearchPathExcluded-3: classes\n"
+
+#: controllers/404.php:7
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: controllers/accounts/index.php:124 controllers/accounts/view.php:167
+#: views/accounts/index.php:8
+msgid "Game accounts"
+msgstr "Contas do jogo"
+
+#: controllers/accounts/view.php:22
+#, php-format
+msgid "Account %s was not found."
+msgstr "A conta %s não foi encontrada."
+
+#: controllers/accounts/view.php:32
+msgid ""
+"The new password must only contain letters from A to Z, numbers from 0 to 9 "
+"and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"A nova senha deverá conter apenas letras de A a Z, números de 0 a 9 e os "
+"seguintes caracteres especiais: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/accounts/view.php:40
+msgid "The new password must be between 6 and 20 characters long."
+msgstr "A nova senha deve ter entre 6 e 20 caracteres."
+
+#: controllers/accounts/view.php:49
+msgid "The account's password was changed."
+msgstr "A senha da conta foi alterada."
+
+#: controllers/accounts/view.php:59 controllers/change-email.php:23
+msgid "The email you typed is the same."
+msgstr "O e-mail que você digitou é o mesmo."
+
+#: controllers/accounts/view.php:68
+msgid "The account's email was changed."
+msgstr "O e-mail da conta foi alterado."
+
+#: controllers/accounts/view.php:77
+msgid "The account's access level was changed."
+msgstr "O nível de acesso da conta foi alterado."
+
+#: controllers/change-email.php:7 views/change-email.php:8
+#: views/common/header.php:63
+msgid "Change your email"
+msgstr "Alterar seu email"
+
+#: controllers/change-email.php:15
+msgid "Your email was changed."
+msgstr "Seu e-mail foi alterado."
+
+#: controllers/change-email.php:45
+msgid "The code your provided is wrong."
+msgstr "O código que você forneceu está errado."
+
+#: controllers/change-email.php:45
+msgid "Start over"
+msgstr "Recomeçar"
+
+#: controllers/change-email.php:75
+msgid ""
+"We could not send you an email to verify that you have access to your "
+"current email."
+msgstr ""
+"Não foi possível enviar-lhe um e-mail para verificar se você tem acesso ao "
+"seu e-mail atual."
+
+#: controllers/change-password.php:7 views/accounts/view.php:65
+#: views/change-password.php:8
+msgid "Change password"
+msgstr "Trocar a senha"
+
+#: controllers/change-password.php:14
+msgid "Your current password is wrong."
+msgstr "Sua senha atual está errada."
+
+#: controllers/change-password.php:20
+msgid "Your account is banned. You cannot change your password."
+msgstr "Sua conta está bloqueada. Você não pode alterar a senha."
+
+#: controllers/change-password.php:22 controllers/reset-password.php:51
+msgid "Your new passwords do not match."
+msgstr "Suas novas senhas não correspondem."
+
+#: controllers/change-password.php:30 controllers/reset-password.php:59
+msgid ""
+"Your new password must only contain letters from A to Z, numbers from 0 to 9 "
+"and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Sua nova senha deverá conter apenas letras de A a Z, números de 0 a 9 e os "
+"seguintes caracteres especiais: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/change-password.php:38 controllers/reset-password.php:67
+msgid "Your new password must be between 6 and 20 characters long."
+msgstr "Sua nova senha deve ter entre 6 e 20 caracteres."
+
+#: controllers/change-password.php:47
+msgid "Your password was changed."
+msgstr "Sua senha foi alterada."
+
+#: controllers/characters/index.php:127 controllers/characters/view.php:79
+#: controllers/index.php:7 views/characters/index.php:8
+#: views/common/header.php:20 views/common/header.php:85 views/index.php:8
+msgid "Characters"
+msgstr "Personagens"
+
+#: controllers/characters/view.php:22
+msgid "Character not found."
+msgstr "Personagem não encontrado"
+
+#: controllers/characters/view.php:33
+msgid "The player is online. He/she must first log it out of the game."
+msgstr "O jogador está online. Ele/ela deve primeiro sair do jogo."
+
+#: controllers/characters/view.php:41
+msgid "The character has been teleported to Giran Castle Town."
+msgstr "O personagem foi teletransportado para Giran Castle Town."
+
+#: controllers/characters/view.php:51
+msgid "The character's access level was changed."
+msgstr "O nível de acesso do personagem foi alterado."
+
+#: controllers/characters/view.php:66
+#, php-format
+msgid "You have send the item with ID %s (x %s) to the character"
+msgstr "Você enviou o item com ID %s (x %s) para o personagem"
+
+#: controllers/donate.php:7 views/common/header.php:35 views/donate.php:8
+#: views/donate.php:58 views/donate.php:147
+msgid "Donate"
+msgstr "Doar"
+
+#: controllers/donate.php:25
+msgid ""
+"Thank you very much for your donation. You will receive the items "
+"automatically as soon as your payment is processed."
+msgstr ""
+"Muito obrigado pela sua doação. Você receberá os itens automaticamente assim "
+"que seu pagamento for processado."
+
+#: controllers/donate.php:57 controllers/login.php:42
+#: controllers/settings.php:105 controllers/settings.php:141
+#: controllers/settings.php:227 controllers/settings.php:247
+msgid "Something went wrong."
+msgstr "Algo errado não está certo."
+
+#: controllers/donate.php:124 controllers/donate.php:135
+msgid ""
+"We could not proccess your information. Please contact an administrator and "
+"ask him to check the Stripe integration."
+msgstr ""
+"Não foi possível processar suas informações. Entre em contato com um "
+"administrador e peça para ele verificar a integração do Stripe."
+
+#: controllers/donations-history.php:7 views/donations-history.php:8
+msgid "Donations History"
+msgstr "Histórico de doações"
+
+#: controllers/index.php:19
+msgid "Character does not exist."
+msgstr "Esse personagem não existe"
+
+#: controllers/index.php:29
+msgid "Your account is banned. You cannot use this function."
+msgstr "Sua conta está banida. Você não pode usar esta função."
+
+#: controllers/index.php:39
+msgid "This character is banned. You cannot use this function."
+msgstr "Este personagem está banido. Você não pode usar esta função."
+
+#: controllers/index.php:49
+msgid "Your character is online. You must first log it out of the game."
+msgstr "Seu personagem está online. Você deve primeiro desconectá-lo do jogo."
+
+#: controllers/index.php:59
+msgid "You must be at least level 20 to use this function."
+msgstr "Você deve ter pelo menos nível 20 para usar esta função."
+
+#: controllers/index.php:72
+msgid "You can only use this function once every 30 minutes."
+msgstr "Você só pode usar esta função uma vez a cada 30 minutos."
+
+#: controllers/index.php:90
+msgid "Your character has been teleported to Giran Castle Town."
+msgstr "Seu personagem foi teletransportado para Giran Castle Town."
+
+#: controllers/login-history.php:51
+msgid "Website"
+msgstr "Website"
+
+#: controllers/login-history.php:53
+msgid "Game"
+msgstr "Jogo"
+
+#: controllers/login-history.php:65
+#| msgid "Login to %s"
+msgid "Login History"
+msgstr "Histórico de conexão"
+
+#: controllers/login.php:49
+msgid "You have tried to login too many times. Try again in a few minutes."
+msgstr ""
+"Você tentou fazer login muitas vezes. Tente novamente em alguns minutos."
+
+#: controllers/login.php:62
+msgid "The account name or password is wrong."
+msgstr "O nome da conta ou a senha estão errados."
+
+#: controllers/login.php:69
+msgid ""
+"Your account is not verified, but it is not linked to an email. Please "
+"contact an Administrator."
+msgstr ""
+"Sua conta não foi verificada, mas não está vinculada a um e-mail. Entre em "
+"contato com um administrador."
+
+#: controllers/login.php:100
+#, php-format
+msgid "Verify your account %s"
+msgstr "Verifique sua conta %s"
+
+#: controllers/login.php:104
+msgid "Your account is not verified. We sent you an email with instructions."
+msgstr ""
+"Sua conta não foi verificada. Enviamos um e-mail para você com instruções."
+
+#: controllers/login.php:108
+msgid ""
+"Your account is not verified. Please check your inbox to find the "
+"verification email."
+msgstr ""
+"Sua conta não foi verificada. Verifique sua caixa de entrada para encontrar "
+"o e-mail de verificação."
+
+#: controllers/login.php:114 controllers/reset-password.php:29
+msgid "Your account is banned."
+msgstr "Sua conta foi banida."
+
+#: controllers/login.php:149
+msgid "Registrations are currently closed."
+msgstr "Os registros estão fechados no momento"
+
+#: controllers/login.php:154
+msgid ""
+"Your account's name must only contain letters from A to Z and numbers from 0 "
+"to 9."
+msgstr ""
+"O nome da sua conta deve conter apenas letras de A a Z e números de 0 a 9."
+
+#: controllers/login.php:159
+msgid "Your account's name must be between 4 and 14 characters long."
+msgstr "O nome da sua conta deve ter entre 4 e 14 caracteres."
+
+#: controllers/login.php:164
+msgid "Your passwords do not match. Type the same password twice."
+msgstr "Suas senhas não coincidem. Digite a mesma senha duas vezes."
+
+#: controllers/login.php:169
+msgid ""
+"Your password must only contain letters from A to Z, numbers from 0 to 9 and "
+"the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Sua senha deverá conter apenas letras de A a Z, números de 0 a 9 e os "
+"seguintes caracteres especiais: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/login.php:174
+msgid "Your password must be between 6 and 20 characters long."
+msgstr "Sua senha deve ter entre 6 e 20 caracteres."
+
+#: controllers/login.php:179
+msgid "The provided e-mail address is incorrect."
+msgstr "O endereço de e-mail fornecido está incorreto."
+
+#: controllers/login.php:187
+msgid "This account name already exists."
+msgstr "Este nome de conta já existe."
+
+#: controllers/login.php:249
+msgid "This account does not exist."
+msgstr "Essa conta não existe."
+
+#: controllers/login.php:254
+msgid "This account is not associated with an email."
+msgstr "Esta conta não está associada a um e-mail."
+
+#: controllers/login.php:259
+msgid "This account is banned."
+msgstr "Esta conta foi banida."
+
+#: controllers/login.php:294
+#, php-format
+msgid "Reset your password for account %s"
+msgstr "Redefinir a senha para a conta %s"
+
+#: controllers/login.php:312 views/login.php:47
+#, php-format
+msgid "Login to %s"
+msgstr "Faça login em %s"
+
+#: controllers/payments.php:82 views/accounts/view.php:212
+#: views/characters/view.php:96 views/donations-history.php:51
+#: views/payments.php:63
+msgid "Pending"
+msgstr "Pendente"
+
+#: controllers/payments.php:84 views/accounts/view.php:214
+#: views/characters/view.php:98 views/donations-history.php:53
+#: views/payments.php:64
+msgid "Completed"
+msgstr "Concluído"
+
+#: controllers/reset-password.php:8 controllers/reset-password.php:20
+#: controllers/reset-password.php:41
+msgid "The reset link has expired."
+msgstr "O link de redefinição expirou."
+
+#: controllers/reset-password.php:76
+msgid "Your password was changed. You may now login."
+msgstr "Sua senha foi alterada. Agora você pode fazer login."
+
+#: controllers/reset-password.php:91 views/login.php:111
+#: views/reset-password.php:47
+msgid "Reset your password"
+msgstr "Redefinir sua senha"
+
+#: controllers/settings.php:23
+msgid "Your general settings have been saved."
+msgstr "Suas configurações gerais foram salvas."
+
+#: controllers/settings.php:40
+msgid "Your email settings have been saved."
+msgstr "Suas configurações de e-mail foram salvas."
+
+#: controllers/settings.php:57
+msgid "Your donation settings have been saved."
+msgstr "Suas configurações de doação foram salvas."
+
+#: controllers/settings.php:80
+msgid "Your item has been added to the donation list."
+msgstr "Seu item foi adicionado à lista de doações."
+
+#: controllers/settings.php:129
+msgid "Your item has been saved."
+msgstr "Seu item foi salvo."
+
+#: controllers/settings.php:149
+msgid "Your item has been removed."
+msgstr "Seu item foi removido."
+
+#: controllers/settings.php:262 views/common/header.php:94 views/settings.php:8
+msgid "ACM Settings"
+msgstr "Configurações do ACM"
+
+#: controllers/verify-account.php:8 controllers/verify-account.php:20
+#: controllers/verify-account.php:41
+msgid "The verification link has expired."
+msgstr "O link de verificação expirou."
+
+#: controllers/verify-account.php:29
+msgid "Your account is already verified."
+msgstr "Sua conta já foi verificada."
+
+#: controllers/verify-account.php:54
+msgid "Your account has been verified. You may now login."
+msgstr "Sua conta foi verificada. Agora você pode fazer login."
+
+#: views/404.php:38
+msgid "Page was not found..."
+msgstr "A página não foi encontrada..."
+
+#: views/404.php:39
+msgid "Go back"
+msgstr "Voltar"
+
+#: views/accounts/index.php:9
+msgid "This is a list of all the accounts."
+msgstr "Esta é uma lista de todas as contas."
+
+#: views/accounts/index.php:18
+msgid "List of accounts"
+msgstr "Lista de contas"
+
+#: views/accounts/index.php:19 views/characters/index.php:19
+#: views/payments.php:14
+msgid "Filters"
+msgstr "Filtros"
+
+#: views/accounts/index.php:26 views/accounts/index.php:36
+#: views/accounts/index.php:69 views/accounts/view.php:33
+#: views/characters/index.php:75 views/characters/view.php:33
+msgid "Date created"
+msgstr "Da de criação"
+
+#: views/accounts/index.php:27 views/accounts/index.php:37
+#: views/characters/index.php:27 views/characters/index.php:37
+#: views/characters/view.php:29 views/payments.php:23 views/payments.php:33
+#| msgid "Account name"
+msgid "Account"
+msgstr "Conta"
+
+#: views/accounts/index.php:28 views/accounts/index.php:38
+#: views/accounts/view.php:88 views/accounts/view.php:97
+#: views/characters/index.php:30 views/characters/index.php:40
+#: views/index.php:30 views/index.php:40
+msgid "Last login"
+msgstr "Último login"
+
+#: views/accounts/index.php:29 views/accounts/index.php:39
+#: views/characters/index.php:31 views/characters/index.php:41
+msgid "Access level"
+msgstr "Nível de Acesso"
+
+#: views/accounts/index.php:30 views/accounts/index.php:40
+msgid "Total characters"
+msgstr "Total de caracteres"
+
+#: views/accounts/index.php:31 views/accounts/index.php:41
+#: views/accounts/index.php:65 views/accounts/view.php:41
+msgid "Last IP"
+msgstr "Último IP"
+
+#: views/accounts/index.php:58 views/characters/index.php:58
+#: views/payments.php:53
+msgid "Search filters"
+msgstr "Filtros de procura"
+
+#: views/accounts/index.php:72 views/accounts/index.php:83
+#: views/accounts/index.php:94 views/characters/index.php:78
+#: views/characters/index.php:89 views/characters/index.php:100
+#: views/payments.php:80
+msgid "Min"
+msgstr "Minimo"
+
+#: views/accounts/index.php:75 views/accounts/index.php:86
+#: views/accounts/index.php:97 views/characters/index.php:81
+#: views/characters/index.php:92 views/characters/index.php:103
+#: views/payments.php:83
+msgid "Max"
+msgstr "Máximo"
+
+#: views/accounts/index.php:80 views/characters/index.php:86
+msgid "Date logged"
+msgstr "Data registrada"
+
+#: views/accounts/index.php:103 views/characters/index.php:109
+#: views/donate.php:146 views/payments.php:89 views/reset-password.php:64
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/accounts/index.php:104 views/characters/index.php:110
+#: views/payments.php:90
+msgid "Apply"
+msgstr "Aplicar"
+
+#: views/accounts/view.php:9
+msgid "Edit the information of the account."
+msgstr "Editar informação da conta"
+
+#: views/accounts/view.php:20
+#| msgid "Account name"
+msgid "Account information"
+msgstr "Informações da conta"
+
+#: views/accounts/view.php:45
+msgid "Last Online Date"
+msgstr "Último dia online"
+
+#: views/accounts/view.php:49
+msgid "Accounts with the same IP"
+msgstr "Contas com o mesmo IP"
+
+#: views/accounts/view.php:63 views/characters/view.php:53 views/donate.php:28
+#: views/donate.php:36 views/index.php:31 views/index.php:41
+msgid "Actions"
+msgstr "Ações"
+
+#: views/accounts/view.php:66
+msgid "Change email"
+msgstr "TRocar o email"
+
+#: views/accounts/view.php:67 views/characters/view.php:56
+msgid "Change access level"
+msgstr "Trocar nível de acesso (Access Level)"
+
+#: views/accounts/view.php:77 views/characters/index.php:18
+msgid "List of characters"
+msgstr "Lista de personagens"
+
+#: views/accounts/view.php:84 views/accounts/view.php:93
+#: views/characters/index.php:26 views/characters/index.php:36
+#: views/characters/view.php:25 views/index.php:26 views/index.php:36
+msgid "Name"
+msgstr "Nome"
+
+#: views/accounts/view.php:85 views/accounts/view.php:94
+#: views/accounts/view.php:191 views/accounts/view.php:200
+#: views/characters/view.php:49 views/characters/view.php:76
+#: views/characters/view.php:84 views/donations-history.php:30
+#: views/donations-history.php:39 views/index.php:27 views/index.php:37
+#: views/payments.php:26 views/payments.php:36 views/payments.php:60
+msgid "Status"
+msgstr "Status"
+
+#: views/accounts/view.php:86 views/accounts/view.php:95
+#: views/characters/index.php:28 views/characters/index.php:38
+#: views/index.php:28 views/index.php:38
+msgid "Class"
+msgstr "Classe"
+
+#: views/accounts/view.php:87 views/accounts/view.php:96
+#: views/characters/index.php:29 views/characters/index.php:39
+#: views/index.php:29 views/index.php:39
+msgid "Level"
+msgstr "Nível"
+
+#: views/accounts/view.php:108 views/characters/view.php:50 views/index.php:52
+msgid "Offline"
+msgstr "Offline"
+
+#: views/accounts/view.php:110 views/characters/view.php:50 views/index.php:54
+msgid "Online"
+msgstr "Online"
+
+#: views/accounts/view.php:112 views/index.php:56
+msgid "Banned"
+msgstr "Banido"
+
+#: views/accounts/view.php:136 views/common/header.php:190
+#: views/login-history.php:8 views/login-history.php:13
+#| msgid "Login to %s"
+msgid "Login history"
+msgstr "Histórico de conexão"
+
+#: views/accounts/view.php:143 views/accounts/view.php:150
+#: views/accounts/view.php:187 views/accounts/view.php:196
+#: views/characters/view.php:73 views/characters/view.php:81
+#: views/donations-history.php:26 views/donations-history.php:35
+#: views/login-history.php:20 views/login-history.php:27 views/payments.php:21
+#: views/payments.php:31 views/payments.php:77
+msgid "Date"
+msgstr "Data"
+
+#: views/accounts/view.php:145 views/accounts/view.php:152
+#: views/login-history.php:22 views/login-history.php:29
+#| msgid "Login to %s"
+msgid "Login type"
+msgstr "Tipo de login"
+
+#: views/accounts/view.php:180 views/characters/view.php:66
+msgid "Donation history"
+msgstr "Histórico de doação"
+
+#: views/accounts/view.php:188 views/accounts/view.php:197
+#: views/donations-history.php:27 views/donations-history.php:36
+#: views/payments.php:22 views/payments.php:32
+msgid "Character"
+msgstr "Personagem"
+
+#: views/accounts/view.php:189 views/accounts/view.php:198
+#: views/characters/view.php:74 views/characters/view.php:82
+#: views/donate.php:101 views/donations-history.php:28
+#: views/donations-history.php:37 views/payments.php:24 views/payments.php:34
+msgid "Item"
+msgstr "Item"
+
+#: views/accounts/view.php:190 views/accounts/view.php:199
+#: views/characters/view.php:75 views/characters/view.php:83
+#: views/donate.php:129 views/donations-history.php:29
+#: views/donations-history.php:38 views/payments.php:25 views/payments.php:35
+#: views/payments.php:68
+msgid "Payment method"
+msgstr "Método de pagamento"
+
+#: views/accounts/view.php:208 views/characters/view.php:92
+msgid "This account hasn't made any donations."
+msgstr "Esta conta não fez nenhuma doação."
+
+#: views/accounts/view.php:242
+msgid "Change the account's password"
+msgstr "Trocar a senha da conta"
+
+#: views/accounts/view.php:249 views/change-password.php:27
+msgid "New password"
+msgstr "Nova senha"
+
+#: views/accounts/view.php:250
+msgid "Type the new password"
+msgstr "Digite a nova senha"
+
+#: views/accounts/view.php:252
+msgid ""
+"The new password must be 6-20 characters long and only contain letters from "
+"A to Z, numbers from 0 to 9 and the following special characters: . ! @ # $ "
+"% ^ & * ( ) - + = _ /"
+msgstr ""
+"A nova senha deve ter de 6 a 20 caracteres e conter apenas letras de A a Z, "
+"números de 0 a 9 e os seguintes caracteres especiais: . ! @ # $ % ^ & * ( ) "
+"- + = _ /"
+
+#: views/accounts/view.php:255 views/accounts/view.php:279
+#: views/accounts/view.php:303 views/characters/view.php:141
+#: views/characters/view.php:165 views/settings.php:359 views/settings.php:426
+msgid "Close"
+msgstr "Fechar"
+
+#: views/accounts/view.php:256 views/accounts/view.php:280
+#: views/accounts/view.php:304
+msgid "Save changes"
+msgstr "Salvar mudanças"
+
+#: views/accounts/view.php:267
+msgid "Change the account's email"
+msgstr "Trocar o email da conta"
+
+#: views/accounts/view.php:274 views/change-email.php:48
+msgid "New email"
+msgstr "Novo email"
+
+#: views/accounts/view.php:275
+msgid "Type the new email"
+msgstr "Digite o novo e-mail"
+
+#: views/accounts/view.php:291
+msgid "Change the account's access level"
+msgstr "Trocar o nível de acesso da conta"
+
+#: views/accounts/view.php:298 views/characters/view.php:160
+msgid "New access level"
+msgstr "Novo nível de acesso"
+
+#: views/accounts/view.php:299 views/characters/view.php:161
+msgid "Type the new access level"
+msgstr "Digite o novo nível de acesso"
+
+#: views/change-email.php:9
+msgid "Fill in the following form in order to change your email."
+msgstr "Preencha o seguinte formulário para alterar o seu email."
+
+#: views/change-email.php:19
+msgid "Approve this change"
+msgstr "Aprovar a mudança"
+
+#: views/change-email.php:25
+msgid "Your new email"
+msgstr "Seu novo e-mail"
+
+#: views/change-email.php:29
+msgid "6-digit confirmation code"
+msgstr "Código de confirmação de 6 digitos"
+
+#: views/change-email.php:30
+#, php-format
+msgid "Type the code we sent to %s"
+msgstr "Digite o código que enviamos para %s"
+
+#: views/change-email.php:32
+msgid ""
+"We sent you an email with a unique 6-digit confirmation code to your current "
+"email."
+msgstr ""
+"Enviamos a você um e-mail com um código de confirmação exclusivo de 6 "
+"dígitos para seu e-mail atual."
+
+#: views/change-email.php:33
+msgid "Complete"
+msgstr "Completo"
+
+#: views/change-email.php:39
+msgid "Set up your new email"
+msgstr "Configurar seu novo email"
+
+#: views/change-email.php:44
+msgid "Your current email"
+msgstr "Seu email atual"
+
+#: views/change-email.php:49
+msgid "Type your new email"
+msgstr "Digite seu novo e-mail"
+
+#: views/change-email.php:51 views/change-password.php:35
+#: views/characters/view.php:142 views/characters/view.php:166
+#: views/settings.php:82 views/settings.php:161 views/settings.php:236
+#: views/settings.php:360 views/settings.php:427
+msgid "Save"
+msgstr "Salvar"
+
+#: views/change-password.php:9
+msgid "Fill in the following form in order to change your password."
+msgstr "Preencha o seguinte formulário para alterar a sua senha."
+
+#: views/change-password.php:18
+msgid "Set up a new password"
+msgstr "Configurar uma nova senha"
+
+#: views/change-password.php:23
+msgid "Current password"
+msgstr "Senha atual"
+
+#: views/change-password.php:24
+msgid "Type your current password"
+msgstr "Digite sua senha atual"
+
+#: views/change-password.php:28
+msgid "Type your new password"
+msgstr "Digite sua nova senha"
+
+#: views/change-password.php:31
+msgid "New password (Repeat)"
+msgstr "Repetir nova senha"
+
+#: views/change-password.php:32 views/reset-password.php:56
+msgid "Retype your new password"
+msgstr "Redigite sua nova senha"
+
+#: views/change-password.php:34
+msgid ""
+"Your new password must be 6-20 characters long and only contain letters from "
+"A to Z, numbers from 0 to 9 and the following special characters: . ! @ # $ "
+"% ^ & * ( ) - + = _ /"
+msgstr ""
+"Sua nova senha deve ter de 6 a 20 caracteres e conter apenas letras de A a "
+"Z, números de 0 a 9 e os seguintes caracteres especiais: . ! @ # $ % ^ & * "
+"( ) - + = _ /"
+
+#: views/characters/index.php:9
+msgid "This is a list of all the characters."
+msgstr "Esta é uma lista de todos os personagens."
+
+#: views/characters/index.php:67 views/payments.php:62 views/payments.php:70
+msgid "All"
+msgstr "Todos"
+
+#: views/characters/view.php:9
+msgid "Edit the information of the character."
+msgstr "Editar informação do personagem"
+
+#: views/characters/view.php:20
+msgid "Character information"
+msgstr "Informações do Personagem"
+
+#: views/characters/view.php:45
+msgid "Last Online"
+msgstr "Última vez online"
+
+#: views/characters/view.php:55
+msgid "Send an item"
+msgstr "Enviar um item"
+
+#: views/characters/view.php:125
+msgid "Send an item to the character"
+msgstr "Enviar um item para o personagem"
+
+#: views/characters/view.php:132 views/settings.php:252 views/settings.php:262
+#: views/settings.php:314 views/settings.php:379
+msgid "Item ID"
+msgstr "ID do item"
+
+#: views/characters/view.php:133
+msgid "Type the item's ID"
+msgstr "Digite o ID do item"
+
+#: views/characters/view.php:136 views/donate.php:26 views/donate.php:34
+#: views/donate.php:111 views/settings.php:254 views/settings.php:264
+#: views/settings.php:328 views/settings.php:393
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: views/characters/view.php:137
+msgid "Type the desired quantity"
+msgstr "Digite a quantidade desejada"
+
+#: views/characters/view.php:153
+msgid "Change the character's access level"
+msgstr "Trocar o nível de acesso do personagem"
+
+#: views/common/header.php:29
+msgid "Donations"
+msgstr "Doações"
+
+#: views/common/header.php:42
+msgid "Donations history"
+msgstr "Histórico de doações"
+
+#: views/common/header.php:51
+#| msgid "Account name"
+msgid "Account settings"
+msgstr "Configurações da Conta"
+
+#: views/common/header.php:57
+msgid "Change your password"
+msgstr "Altearar sua senha"
+
+#: views/common/header.php:72
+msgid "Administration"
+msgstr "Administração"
+
+#: views/common/header.php:80
+msgid "Game data"
+msgstr "Dados do jogo"
+
+#: views/common/header.php:84
+#| msgid "Account name"
+msgid "Accounts"
+msgstr "Contas"
+
+#: views/common/header.php:102
+msgid "Payments history"
+msgstr "Histórico de pagamento"
+
+#: views/common/header.php:110
+msgid "Server status"
+msgstr "Status do servidor"
+
+#: views/common/header.php:124
+msgid "Online players"
+msgstr "Jogadores online"
+
+#: views/common/header.php:128
+msgid "Online GMs"
+msgstr "GM's online"
+
+#: views/common/header.php:195
+msgid "Logout"
+msgstr "Sair"
+
+#: views/donate.php:9
+#, php-format
+msgid "Donate to %s and help our server grow."
+msgstr "Doe para %s e ajude o servidor a crescer."
+
+#: views/donate.php:18
+msgid "Available items and services for donation"
+msgstr "Itens e serviços disponíveis para doação"
+
+#: views/donate.php:25 views/donate.php:33
+msgid "Item / Service"
+msgstr "Item / Serviço"
+
+#: views/donate.php:27 views/donate.php:35 views/donate.php:125
+#: views/settings.php:255 views/settings.php:265 views/settings.php:334
+#: views/settings.php:399
+msgid "Price"
+msgstr "Valor"
+
+#: views/donate.php:44
+msgid "There are no items available for donation right now."
+msgstr "Não há itens disponíveis para doação no momento."
+
+#: views/donate.php:49 views/index.php:49
+msgid "You haven't created any characters."
+msgstr "Você não criou nenhum personagem."
+
+#: views/donate.php:71
+msgid "Terms of service"
+msgstr "Termos de serviço"
+
+#: views/donate.php:84
+#, php-format
+#| msgid "Login to %s"
+msgid "Donate to %s"
+msgstr "Doe para %s"
+
+#: views/donate.php:91
+msgid "Select your character"
+msgstr "Selecione seu personagem"
+
+#: views/donate.php:93
+msgid "Choose your character"
+msgstr "Escolha seu personagem"
+
+#: views/donate.php:106
+msgid "Description"
+msgstr "Descrição"
+
+#: views/donate.php:131
+msgid "Choose a method to pay"
+msgstr "Escolher a forma de pagamento"
+
+#: views/donate.php:140
+msgid ""
+"I have read and I agree with the Terms of Service that are shown on this "
+"page."
+msgstr "Li e concordo com os Termos de Serviço mostrados nesta página."
+
+#: views/donate.php:142
+msgid ""
+"You will be redirected to the payment gateway's secure invironment. We do "
+"not store any of your payments information."
+msgstr ""
+"Você será redirecionado para o ambiente seguro do gateway de pagamento. Não "
+"armazenamos nenhuma das suas informações de pagamento."
+
+#: views/donations-history.php:9
+msgid ""
+"This is a list with all your donation history. Thank you very much for your "
+"support!"
+msgstr ""
+"Esta é uma lista com todo o seu histórico de doações. Muito obrigado pelo "
+"seu apoio!"
+
+#: views/donations-history.php:19
+msgid "Your past donations"
+msgstr "Suas doações anteriores"
+
+#: views/donations-history.php:47
+msgid "You haven't made any donations."
+msgstr "Você não fez nenhuma doação."
+
+#: views/index.php:9
+msgid ""
+"This is the list of your characters. If a character gets stucked upon login, "
+"you can unstuck and repair it."
+msgstr ""
+"Esta é a lista de seus personagens. Se um personagem travar no login, você "
+"poderá soltá-lo e repará-lo."
+
+#: views/index.php:19
+msgid "Your characters"
+msgstr "Seus personagens"
+
+#: views/login-history.php:9
+msgid "This is all the times someone has logged in using your account."
+msgstr "São todas as vezes que alguém fez login usando sua conta."
+
+#: views/login-history.php:21 views/login-history.php:28
+msgid "IP"
+msgstr "IP"
+
+#: views/login.php:51 views/login.php:83 views/login.php:116
+msgid "Account name"
+msgstr "Nome da Conta"
+
+#: views/login.php:55
+msgid "Password"
+msgstr "Senha"
+
+#: views/login.php:60
+msgid "Remember Me"
+msgstr "Lembrar de mim"
+
+#: views/login.php:64
+msgid "Login"
+msgstr "Conectar-se"
+
+#: views/login.php:69
+msgid "Forgot Password?"
+msgstr "Esqueceu sua senha?"
+
+#: views/login.php:72
+msgid "Create a new account"
+msgstr "Criar uma nova conta"
+
+#: views/login.php:79
+#, php-format
+msgid "Register at %s"
+msgstr "Registre-se em %s"
+
+#: views/login.php:87
+msgid "Set a password"
+msgstr "Definir uma senha"
+
+#: views/login.php:91
+msgid "Retype your password"
+msgstr "Redigite sua senha"
+
+#: views/login.php:95
+msgid "Your email"
+msgstr "Seu email"
+
+#: views/login.php:98
+msgid "Register"
+msgstr "Registre-se"
+
+#: views/login.php:100
+msgid ""
+"Your account has been created, but it requires verification. We have sent "
+"you an email with a link to verify your account."
+msgstr ""
+"Sua conta foi criada, mas requer verificação. Enviamos a você um e-mail com "
+"um link para verificar sua conta."
+
+#: views/login.php:104 views/login.php:126
+msgid "Back to login"
+msgstr "Voltar para login"
+
+#: views/login.php:115
+msgid "Type your account's name"
+msgstr "Digite o nome da sua conta"
+
+#: views/login.php:120
+msgid "Reset password"
+msgstr "Redefinir a senha"
+
+#: views/login.php:122
+msgid "We have sent you an email with a link to change your password."
+msgstr "Enviamos um e-mail para você com um link para alterar sua senha."
+
+#: views/login.php:147
+msgid "Back to main website"
+msgstr "Voltar para o site"
+
+#: views/login.php:159
+msgid "Error"
+msgstr "Erro"
+
+#: views/login.php:162 views/login.php:183 views/login.php:203
+#: views/login.php:219
+msgid "Something went wrong. Please try again."
+msgstr "Algo errado não está certo, tente novamente."
+
+#: views/payments.php:8
+msgid "Payments History"
+msgstr "Histórico de pagamento"
+
+#: views/payments.php:9
+msgid "This is a list with all the payments made by users."
+msgstr "Esta é uma lista com todos os pagamentos efetuados pelos usuários."
+
+#: views/payments.php:13
+msgid "List of payments"
+msgstr "Lista de pagamentos"
+
+#: views/reset-password.php:52
+msgid "Your new password"
+msgstr "Sua nova senha"
+
+#: views/reset-password.php:59
+msgid "Set new password"
+msgstr "Definir nova senha"
+
+#: views/settings.php:9
+msgid "Edit the settings of L2jMobius ACM."
+msgstr "Editar as configurações do ACM"
+
+#: views/settings.php:20
+msgid "Email settings"
+msgstr "Configurações de email"
+
+#: views/settings.php:25
+msgid "Your email address"
+msgstr "Seu endereço de email"
+
+#: views/settings.php:26
+msgid "Enter your email"
+msgstr "Insira seu email"
+
+#: views/settings.php:27
+msgid "This will be the sender for all system emails."
+msgstr "Este será o remetente de todos os e-mails do sistema."
+
+#: views/settings.php:30
+msgid "How will you send the emails?"
+msgstr "Como você enviará os e-mails?"
+
+#: views/settings.php:90
+msgid "General settings"
+msgstr "Configurações gerais"
+
+#: views/settings.php:95
+msgid "Default language"
+msgstr "Idioma padrão"
+
+#: views/settings.php:106
+msgid "Allow account creations?"
+msgstr "Permitir a criação de contas?"
+
+#: views/settings.php:108 views/settings.php:116 views/settings.php:127
+#: views/settings.php:135 views/settings.php:142 views/settings.php:149
+#: views/settings.php:156 views/settings.php:177 views/settings.php:199
+#: views/settings.php:224 views/settings.php:225 views/settings.php:274
+#: views/settings.php:346 views/settings.php:411
+msgid "Yes"
+msgstr "Sim"
+
+#: views/settings.php:109 views/settings.php:115 views/settings.php:126
+#: views/settings.php:134 views/settings.php:141 views/settings.php:148
+#: views/settings.php:155 views/settings.php:176 views/settings.php:198
+#: views/settings.php:223 views/settings.php:279 views/settings.php:345
+#: views/settings.php:410
+msgid "No"
+msgstr "Não"
+
+#: views/settings.php:113
+msgid "Require account email verification?"
+msgstr "Exigir verificação de e-mail da conta?"
+
+#: views/settings.php:120
+msgid "Your server's main website"
+msgstr "Suas doações anteriores Site principal do seu servidor"
+
+#: views/settings.php:124
+msgid "Display server's stats?"
+msgstr "Exibir estatísticas do servidor?"
+
+#: views/settings.php:132
+msgid "Display loginserver's status?"
+msgstr "Mostrar o status do Loginserver?"
+
+#: views/settings.php:139
+msgid "Display gameserver's status?"
+msgstr "Mostrar o status do Gameserver?"
+
+#: views/settings.php:146
+msgid "Display online player count?"
+msgstr "Mostrar jogadores online?"
+
+#: views/settings.php:153
+msgid "Display online GM count?"
+msgstr "Mostrar GM's estão online?"
+
+#: views/settings.php:169
+msgid "Donation settings"
+msgstr "Configurações de doação"
+
+#: views/settings.php:174
+msgid "Enable donations?"
+msgstr "Habilitar doações"
+
+#: views/settings.php:182
+msgid "Donation currency"
+msgstr "Moeda de doação"
+
+#: views/settings.php:191
+msgid "Terms of your service"
+msgstr "Termos do seu serviço"
+
+#: views/settings.php:196
+msgid "Enable Stripe?"
+msgstr "Ativar Stripe?"
+
+#: views/settings.php:211
+msgid ""
+"For security reasons, you have to fill-in your secret key inside your .env "
+"file."
+msgstr ""
+"Por razões de segurança, você deve preencher sua chave secreta (Secret Key) "
+"dentro do arquivo .env."
+
+#: views/settings.php:217
+msgid ""
+"In order to generate your webhook key you need to type your Endpoint URL in "
+"Stripe."
+msgstr ""
+"Para gerar sua chave de webhook, você precisa digitar seu Endpoint URL no "
+"Stripe."
+
+#: views/settings.php:221
+msgid "Enable Paypal?"
+msgstr "Ativar Paypal?"
+
+#: views/settings.php:231
+msgid "Type your Paypal email"
+msgstr "Digite seu e-mail Paypal"
+
+#: views/settings.php:244
+msgid "Donation item list"
+msgstr "Lista de itens de doação"
+
+#: views/settings.php:245
+msgid "Add item"
+msgstr "Adicionar item"
+
+#: views/settings.php:253 views/settings.php:263
+msgid "Item Name"
+msgstr "Nome do item"
+
+#: views/settings.php:256 views/settings.php:266
+msgid "Allow multiple"
+msgstr "Permitir multiplos"
+
+#: views/settings.php:257 views/settings.php:267
+msgid "Max quantity"
+msgstr "Quantidade máxima"
+
+#: views/settings.php:276
+msgid "Unlimited"
+msgstr "Ilimitada"
+
+#: views/settings.php:307
+msgid "Add donation item"
+msgstr "Adicionar item de doação"
+
+#: views/settings.php:315 views/settings.php:380
+msgid "Type the item's in-game ID"
+msgstr "Digite o ID do item no jogo"
+
+#: views/settings.php:318 views/settings.php:383
+msgid "Item's Name"
+msgstr "Nome do item"
+
+#: views/settings.php:319 views/settings.php:384
+msgid "Type the name of the item"
+msgstr "Type the name of the item"
+
+#: views/settings.php:322 views/settings.php:387
+msgid "Item Description (Optional)"
+msgstr "Descrição do item (Opcional)"
+
+#: views/settings.php:323 views/settings.php:388
+msgid "This description will appear on each item"
+msgstr "Esta descrição aparecerá em cada item"
+
+#: views/settings.php:329
+msgid "Type the item's quantity"
+msgstr "Digite a quantidade do item"
+
+#: views/settings.php:335 views/settings.php:400
+msgid "Type the price"
+msgstr "Digite o preço"
+
+#: views/settings.php:340 views/settings.php:405
+msgid ""
+"Decimals are allowed by using \".\" for decimal point. The price is not per "
+"item. It refers to the above quantity. For example, if you wish to sell 200 "
+"Αdenas for 1€, you type quantity 200 and price 1. If you want the player to "
+"be able to buy many of these, you can allow multiple orders below. This will "
+"let people buy sets of this listing, like 400 Adenas for 2€."
+msgstr ""
+"Decimais são permitidos usando \".\" para ponto decimal. O preço não é por "
+"item. Refere-se à quantidade acima. Por exemplo, se quiser vender 200 Αdenas "
+"por 1€, digite quantidade 200 e preço 1. Se quiser que o jogador possa "
+"comprar muitas delas, você pode permitir vários pedidos abaixo. Isto "
+"permitirá que as pessoas comprem conjuntos desta lista, como 400 Adenas por "
+"2€."
+
+#: views/settings.php:343 views/settings.php:408
+msgid "Allow multiple orders"
+msgstr "Permitir multiplos pedidos"
+
+#: views/settings.php:351 views/settings.php:416
+msgid "Maximum order quantity (Optional)"
+msgstr "Quantidade máxima do pedido (opcional)"
+
+#: views/settings.php:352
+msgid "Leave empty for unlimited"
+msgstr "Deixe vazio para ilimitado"
+
+#: views/settings.php:354 views/settings.php:419
+msgid ""
+"This is the maximum number a user is allowed to add this item to his "
+"\"cart\". For example, if you are selling 200 Adenas for 1€ above, you can "
+"limit the total number of Adenas to 1000 Adenas by typing the number 5. This "
+"will allow the user to only buy up to 5 times the 200 Adenas pack."
+msgstr ""
+"Este é o número máximo que um usuário pode adicionar este item ao seu "
+"“carrinho”. Por exemplo, se estiver a vender 200 Adenas por 1€ acima, pode "
+"limitar o número total de Adenas a 1000 Adenas digitando o número 5. Isto "
+"permitirá ao utilizador comprar apenas até 5 vezes o pacote de 200 Adenas."
+
+#: views/settings.php:372
+msgid "Edit donation item"
+msgstr "Editar item de doação"
+
+#: views/settings.php:424
+msgid "Delete"
+msgstr "Apagar"
+
+msgid "Enable ACM Task Manager?"
+msgstr "Ativar o Gerenciador de Tarefas?"
+
+msgid "Task Manager"
+msgstr "Gerenciador de Tarefas"

@@ -1,0 +1,1214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: L2jMobius ACM\n"
+"POT-Creation-Date: 2024-01-18 13:18+0200\n"
+"PO-Revision-Date: 2024-01-27 19:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: docs\n"
+"X-Poedit-SearchPathExcluded-2: locale\n"
+"X-Poedit-SearchPathExcluded-3: classes\n"
+
+#: controllers/404.php:7
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: controllers/accounts/index.php:124 controllers/accounts/view.php:167 views/accounts/index.php:8
+msgid "Game accounts"
+msgstr "Игровые аккаунты"
+
+#: controllers/accounts/view.php:22
+#, php-format
+msgid "Account %s was not found."
+msgstr "Аккаунт %s не найден."
+
+#: controllers/accounts/view.php:32
+msgid ""
+"The new password must only contain letters from A to Z, numbers from 0 to 9 and the following "
+"special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Новый пароль должен содержать только буквы от A до Z, цифры от 0 до 9 и следующие специальные "
+"символы: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/accounts/view.php:40
+msgid "The new password must be between 6 and 20 characters long."
+msgstr "Новый пароль должен содержать от 6 до 20 символов."
+
+#: controllers/accounts/view.php:49
+msgid "The account's password was changed."
+msgstr "Пароль учетной записи был изменен."
+
+#: controllers/accounts/view.php:59 controllers/change-email.php:23
+msgid "The email you typed is the same."
+msgstr "Набранное вами письмо - то же самое."
+
+#: controllers/accounts/view.php:68
+msgid "The account's email was changed."
+msgstr "Электронная почта учетной записи была изменена."
+
+#: controllers/accounts/view.php:77
+msgid "The account's access level was changed."
+msgstr "Уровень доступа учетной записи был изменен."
+
+#: controllers/change-email.php:7 views/change-email.php:8 views/common/header.php:63
+msgid "Change your email"
+msgstr "Измените адрес электронной почты"
+
+#: controllers/change-email.php:15
+msgid "Your email was changed."
+msgstr "Ваш адрес электронной почты был изменен."
+
+#: controllers/change-email.php:45
+msgid "The code your provided is wrong."
+msgstr "Приведенный вами код неверен."
+
+#: controllers/change-email.php:45
+msgid "Start over"
+msgstr "Начать сначала"
+
+#: controllers/change-email.php:75
+msgid "We could not send you an email to verify that you have access to your current email."
+msgstr ""
+"Нам не удалось отправить вам электронное письмо для подтверждения наличия у вас доступа к вашей "
+"текущей электронной почте."
+
+#: controllers/change-password.php:7 views/accounts/view.php:65 views/change-password.php:8
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: controllers/change-password.php:14
+msgid "Your current password is wrong."
+msgstr "Ваш текущий пароль неверен."
+
+#: controllers/change-password.php:20
+msgid "Your account is banned. You cannot change your password."
+msgstr "Ваша учетная запись заблокирована. Вы не можете изменить пароль."
+
+#: controllers/change-password.php:22 controllers/reset-password.php:51
+msgid "Your new passwords do not match."
+msgstr "Ваши новые пароли не совпадают."
+
+#: controllers/change-password.php:30 controllers/reset-password.php:59
+msgid ""
+"Your new password must only contain letters from A to Z, numbers from 0 to 9 and the following "
+"special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Ваш новый пароль должен содержать только буквы от A до Z, цифры от 0 до 9 и следующие "
+"специальные символы: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/change-password.php:38 controllers/reset-password.php:67
+msgid "Your new password must be between 6 and 20 characters long."
+msgstr "Ваш новый пароль должен содержать от 6 до 20 символов."
+
+#: controllers/change-password.php:47
+msgid "Your password was changed."
+msgstr "Ваш пароль был изменен."
+
+#: controllers/characters/index.php:127 controllers/characters/view.php:79 controllers/index.php:7
+#: views/characters/index.php:8 views/common/header.php:20 views/common/header.php:85
+#: views/index.php:8
+msgid "Characters"
+msgstr "Персонажи"
+
+#: controllers/characters/view.php:22
+msgid "Character not found."
+msgstr "Персонаж не найден."
+
+#: controllers/characters/view.php:33
+msgid "The player is online. He/she must first log it out of the game."
+msgstr "Игрок онлайн. Он/она должен сначала выйти из игры."
+
+#: controllers/characters/view.php:41
+msgid "The character has been teleported to Giran Castle Town."
+msgstr "Персонаж был телепортирован в город-замок Гиран."
+
+#: controllers/characters/view.php:51
+msgid "The character's access level was changed."
+msgstr "Изменён уровень доступа персонажа."
+
+#: controllers/characters/view.php:66
+#, php-format
+msgid "You have send the item with ID %s (x %s) to the character"
+msgstr "Вы отправили предмет с идентификатором %s (x %s) персонажу"
+
+#: controllers/donate.php:7 views/common/header.php:35 views/donate.php:8 views/donate.php:58
+#: views/donate.php:147
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: controllers/donate.php:25
+msgid ""
+"Thank you very much for your donation. You will receive the items automatically as soon as your "
+"payment is processed."
+msgstr ""
+"Большое спасибо за ваше пожертвование. Вы получите предметы автоматически, как только ваш платеж "
+"будет обработан."
+
+#: controllers/donate.php:57 controllers/login.php:42 controllers/settings.php:105
+#: controllers/settings.php:141 controllers/settings.php:227 controllers/settings.php:247
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: controllers/donate.php:124 controllers/donate.php:135
+msgid ""
+"We could not proccess your information. Please contact an administrator and ask him to check the "
+"Stripe integration."
+msgstr ""
+"Мы не смогли обработать вашу информацию. Свяжитесь с администратором и попросите его проверить "
+"интеграцию Stripe."
+
+#: controllers/donations-history.php:7 views/donations-history.php:8
+msgid "Donations History"
+msgstr "История пожертвований"
+
+#: controllers/index.php:19
+msgid "Character does not exist."
+msgstr "Персонаж не существует."
+
+#: controllers/index.php:29
+msgid "Your account is banned. You cannot use this function."
+msgstr "Ваша учетная запись заблокирована. Вы не можете использовать эту функцию."
+
+#: controllers/index.php:39
+msgid "This character is banned. You cannot use this function."
+msgstr "Этот персонаж заблокирован. Вы не можете использовать эту функцию."
+
+#: controllers/index.php:49
+msgid "Your character is online. You must first log it out of the game."
+msgstr "Ваш персонаж онлайн. сначала надо выйти из игры."
+
+#: controllers/index.php:59
+msgid "You must be at least level 20 to use this function."
+msgstr "Вы должны быть как минимум 20 уровня, чтобы использовать эту функцию."
+
+#: controllers/index.php:72
+msgid "You can only use this function once every 30 minutes."
+msgstr "Вы можете использовать эту функцию только один раз каждые 30 минут."
+
+#: controllers/index.php:90
+msgid "Your character has been teleported to Giran Castle Town."
+msgstr "Ваш персонаж был телепортирован в город-замок Гиран."
+
+#: controllers/login-history.php:51
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: controllers/login-history.php:53
+msgid "Game"
+msgstr "Игра"
+
+#: controllers/login-history.php:65
+#| msgid "Login to %s"
+msgid "Login History"
+msgstr "История входов"
+
+#: controllers/login.php:49
+msgid "You have tried to login too many times. Try again in a few minutes."
+msgstr "Вы пытались войти слишком много раз. Повторите попытку через несколько минут."
+
+#: controllers/login.php:62
+msgid "The account name or password is wrong."
+msgstr "Имя учетной записи или пароль неверны."
+
+#: controllers/login.php:69
+msgid ""
+"Your account is not verified, but it is not linked to an email. Please contact an Administrator."
+msgstr ""
+"Ваша учетная запись не подтверждена, но она не связана с электронной почтой. Пожалуйста "
+"обратитесь к администратору."
+
+#: controllers/login.php:100
+#, php-format
+msgid "Verify your account %s"
+msgstr "Подтвердите свой аккаунт %s"
+
+#: controllers/login.php:104
+msgid "Your account is not verified. We sent you an email with instructions."
+msgstr "Ваша учетная запись не подтверждена. Мы отправили вам письмо с инструкциями."
+
+#: controllers/login.php:108
+msgid "Your account is not verified. Please check your inbox to find the verification email."
+msgstr ""
+"Ваша учетная запись не подтверждена. Пожалуйста, проверьте свой почтовый ящик, чтобы найти "
+"письмо с подтверждением."
+
+#: controllers/login.php:114 controllers/reset-password.php:29
+msgid "Your account is banned."
+msgstr "Ваш аккаунт заблокирован."
+
+#: controllers/login.php:149
+msgid "Registrations are currently closed."
+msgstr "Регистрация на данный момент закрыта."
+
+#: controllers/login.php:154
+msgid "Your account's name must only contain letters from A to Z and numbers from 0 to 9."
+msgstr "Имя вашей учетной записи должно содержать только буквы от A до Z и цифры от 0. до 9."
+
+#: controllers/login.php:159
+msgid "Your account's name must be between 4 and 14 characters long."
+msgstr "Имя вашей учетной записи должно содержать от 4 до 14 символов."
+
+#: controllers/login.php:164
+msgid "Your passwords do not match. Type the same password twice."
+msgstr "Ваши пароли не совпадают. Введите один и тот же пароль дважды."
+
+#: controllers/login.php:169
+msgid ""
+"Your password must only contain letters from A to Z, numbers from 0 to 9 and the following "
+"special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Ваш пароль должен содержать только буквы от A до Z, цифры от 0 до 9 и следующие специальные "
+"символы: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: controllers/login.php:174
+msgid "Your password must be between 6 and 20 characters long."
+msgstr "Ваш пароль должен иметь длину от 6 до 20 символов."
+
+#: controllers/login.php:179
+msgid "The provided e-mail address is incorrect."
+msgstr "Указанный адрес электронной почты неверен."
+
+#: controllers/login.php:187
+msgid "This account name already exists."
+msgstr "Это имя учетной записи уже существует."
+
+#: controllers/login.php:249
+msgid "This account does not exist."
+msgstr "Эта учетная запись не существует."
+
+#: controllers/login.php:254
+msgid "This account is not associated with an email."
+msgstr "Эта учетная запись не связана с электронной почтой."
+
+#: controllers/login.php:259
+msgid "This account is banned."
+msgstr "Этот аккаунт заблокирован."
+
+#: controllers/login.php:294
+#, php-format
+msgid "Reset your password for account %s"
+msgstr "Сбросьте пароль для учетной записи %s"
+
+#: controllers/login.php:312 views/login.php:47
+#, php-format
+msgid "Login to %s"
+msgstr "Войти в %s"
+
+#: controllers/payments.php:82 views/accounts/view.php:212 views/characters/view.php:96
+#: views/donations-history.php:51 views/payments.php:63
+msgid "Pending"
+msgstr "В ожидании"
+
+#: controllers/payments.php:84 views/accounts/view.php:214 views/characters/view.php:98
+#: views/donations-history.php:53 views/payments.php:64
+msgid "Completed"
+msgstr "Завершено"
+
+#: controllers/reset-password.php:8 controllers/reset-password.php:20
+#: controllers/reset-password.php:41
+msgid "The reset link has expired."
+msgstr "Срок действия ссылки для сброса истек."
+
+#: controllers/reset-password.php:76
+msgid "Your password was changed. You may now login."
+msgstr "Ваш пароль был изменен. Теперь вы можете войти в систему."
+
+#: controllers/reset-password.php:91 views/login.php:111 views/reset-password.php:47
+msgid "Reset your password"
+msgstr "Сбросить пароль"
+
+#: controllers/settings.php:23
+msgid "Your general settings have been saved."
+msgstr "Общие настройки сохранены."
+
+#: controllers/settings.php:40
+msgid "Your email settings have been saved."
+msgstr "Настройки вашей электронной почты сохранены."
+
+#: controllers/settings.php:57
+msgid "Your donation settings have been saved."
+msgstr "Ваши настройки пожертвования сохранены."
+
+#: controllers/settings.php:80
+msgid "Your item has been added to the donation list."
+msgstr "Ваш товар добавлен в список пожертвований."
+
+#: controllers/settings.php:129
+msgid "Your item has been saved."
+msgstr "Ваш предмет сохранен."
+
+#: controllers/settings.php:149
+msgid "Your item has been removed."
+msgstr "Ваш предмет был удален."
+
+#: controllers/settings.php:262 views/common/header.php:94 views/settings.php:8
+msgid "ACM Settings"
+msgstr "Настройки ACM"
+
+#: controllers/verify-account.php:8 controllers/verify-account.php:20
+#: controllers/verify-account.php:41
+msgid "The verification link has expired."
+msgstr "Срок действия ссылки для подтверждения истек."
+
+#: controllers/verify-account.php:29
+msgid "Your account is already verified."
+msgstr "Ваш аккаунт уже подтвержден."
+
+#: controllers/verify-account.php:54
+msgid "Your account has been verified. You may now login."
+msgstr "Ваша учетная запись была подтверждена. Теперь вы можете войти в систему."
+
+#: views/404.php:38
+msgid "Page was not found..."
+msgstr "Страница не найдена..."
+
+#: views/404.php:39
+msgid "Go back"
+msgstr "Вернуться"
+
+#: views/accounts/index.php:9
+msgid "This is a list of all the accounts."
+msgstr "Это список всех аккаунтов."
+
+#: views/accounts/index.php:18
+msgid "List of accounts"
+msgstr "Список аккаунтов"
+
+#: views/accounts/index.php:19 views/characters/index.php:19 views/payments.php:14
+msgid "Filters"
+msgstr "Фильтры"
+
+#: views/accounts/index.php:26 views/accounts/index.php:36 views/accounts/index.php:69
+#: views/accounts/view.php:33 views/characters/index.php:75 views/characters/view.php:33
+msgid "Date created"
+msgstr "Дата создания"
+
+#: views/accounts/index.php:27 views/accounts/index.php:37 views/characters/index.php:27
+#: views/characters/index.php:37 views/characters/view.php:29 views/payments.php:23
+#: views/payments.php:33
+#| msgid "Account name"
+msgid "Account"
+msgstr "Аккаунт"
+
+#: views/accounts/index.php:28 views/accounts/index.php:38 views/accounts/view.php:88
+#: views/accounts/view.php:97 views/characters/index.php:30 views/characters/index.php:40
+#: views/index.php:30 views/index.php:40
+msgid "Last login"
+msgstr "Последний вход"
+
+#: views/accounts/index.php:29 views/accounts/index.php:39 views/characters/index.php:31
+#: views/characters/index.php:41
+msgid "Access level"
+msgstr "Уровень доступа"
+
+#: views/accounts/index.php:30 views/accounts/index.php:40
+msgid "Total characters"
+msgstr "Всего персонажей"
+
+#: views/accounts/index.php:31 views/accounts/index.php:41 views/accounts/index.php:65
+#: views/accounts/view.php:41
+msgid "Last IP"
+msgstr "Последний IP"
+
+#: views/accounts/index.php:58 views/characters/index.php:58 views/payments.php:53
+msgid "Search filters"
+msgstr "Фильтры поиска"
+
+#: views/accounts/index.php:72 views/accounts/index.php:83 views/accounts/index.php:94
+#: views/characters/index.php:78 views/characters/index.php:89 views/characters/index.php:100
+#: views/payments.php:80
+msgid "Min"
+msgstr "Мин"
+
+#: views/accounts/index.php:75 views/accounts/index.php:86 views/accounts/index.php:97
+#: views/characters/index.php:81 views/characters/index.php:92 views/characters/index.php:103
+#: views/payments.php:83
+msgid "Max"
+msgstr "Макс"
+
+#: views/accounts/index.php:80 views/characters/index.php:86
+msgid "Date logged"
+msgstr "Дата регистрации"
+
+#: views/accounts/index.php:103 views/characters/index.php:109 views/donate.php:146
+#: views/payments.php:89 views/reset-password.php:64
+msgid "Cancel"
+msgstr "Отмена"
+
+#: views/accounts/index.php:104 views/characters/index.php:110 views/payments.php:90
+msgid "Apply"
+msgstr "Применить"
+
+#: views/accounts/view.php:9
+msgid "Edit the information of the account."
+msgstr "Отредактируйте информацию об аккаунте."
+
+#: views/accounts/view.php:20
+#| msgid "Account name"
+msgid "Account information"
+msgstr "Информация об учетной записи"
+
+#: views/accounts/view.php:45
+msgid "Last Online Date"
+msgstr "Последняя онлайн-дата"
+
+#: views/accounts/view.php:49
+msgid "Accounts with the same IP"
+msgstr "Аккаунты с одинаковым IP"
+
+#: views/accounts/view.php:63 views/characters/view.php:53 views/donate.php:28 views/donate.php:36
+#: views/index.php:31 views/index.php:41
+msgid "Actions"
+msgstr "Действия"
+
+#: views/accounts/view.php:66
+msgid "Change email"
+msgstr "Изменить e-mail"
+
+#: views/accounts/view.php:67 views/characters/view.php:56
+msgid "Change access level"
+msgstr "Изменить уровень доступа"
+
+#: views/accounts/view.php:77 views/characters/index.php:18
+msgid "List of characters"
+msgstr "Список персонажей"
+
+#: views/accounts/view.php:84 views/accounts/view.php:93 views/characters/index.php:26
+#: views/characters/index.php:36 views/characters/view.php:25 views/index.php:26 views/index.php:36
+msgid "Name"
+msgstr "Имя"
+
+#: views/accounts/view.php:85 views/accounts/view.php:94 views/accounts/view.php:191
+#: views/accounts/view.php:200 views/characters/view.php:49 views/characters/view.php:76
+#: views/characters/view.php:84 views/donations-history.php:30 views/donations-history.php:39
+#: views/index.php:27 views/index.php:37 views/payments.php:26 views/payments.php:36
+#: views/payments.php:60
+msgid "Status"
+msgstr "Статус"
+
+#: views/accounts/view.php:86 views/accounts/view.php:95 views/characters/index.php:28
+#: views/characters/index.php:38 views/index.php:28 views/index.php:38
+msgid "Class"
+msgstr "Класс"
+
+#: views/accounts/view.php:87 views/accounts/view.php:96 views/characters/index.php:29
+#: views/characters/index.php:39 views/index.php:29 views/index.php:39
+msgid "Level"
+msgstr "Уровень"
+
+#: views/accounts/view.php:108 views/characters/view.php:50 views/index.php:52
+msgid "Offline"
+msgstr "Не в сети"
+
+#: views/accounts/view.php:110 views/characters/view.php:50 views/index.php:54
+msgid "Online"
+msgstr "В сети"
+
+#: views/accounts/view.php:112 views/index.php:56
+msgid "Banned"
+msgstr "Запрещено"
+
+#: views/accounts/view.php:136 views/common/header.php:190 views/login-history.php:8
+#: views/login-history.php:13
+#| msgid "Login to %s"
+msgid "Login history"
+msgstr "История входов"
+
+#: views/accounts/view.php:143 views/accounts/view.php:150 views/accounts/view.php:187
+#: views/accounts/view.php:196 views/characters/view.php:73 views/characters/view.php:81
+#: views/donations-history.php:26 views/donations-history.php:35 views/login-history.php:20
+#: views/login-history.php:27 views/payments.php:21 views/payments.php:31 views/payments.php:77
+msgid "Date"
+msgstr "Дата"
+
+#: views/accounts/view.php:145 views/accounts/view.php:152 views/login-history.php:22
+#: views/login-history.php:29
+#| msgid "Login to %s"
+msgid "Login type"
+msgstr "Тип входа"
+
+#: views/accounts/view.php:180 views/characters/view.php:66
+msgid "Donation history"
+msgstr "История пожертвований"
+
+#: views/accounts/view.php:188 views/accounts/view.php:197 views/donations-history.php:27
+#: views/donations-history.php:36 views/payments.php:22 views/payments.php:32
+msgid "Character"
+msgstr "Персонажи"
+
+#: views/accounts/view.php:189 views/accounts/view.php:198 views/characters/view.php:74
+#: views/characters/view.php:82 views/donate.php:101 views/donations-history.php:28
+#: views/donations-history.php:37 views/payments.php:24 views/payments.php:34
+msgid "Item"
+msgstr "Предмет"
+
+#: views/accounts/view.php:190 views/accounts/view.php:199 views/characters/view.php:75
+#: views/characters/view.php:83 views/donate.php:129 views/donations-history.php:29
+#: views/donations-history.php:38 views/payments.php:25 views/payments.php:35 views/payments.php:68
+msgid "Payment method"
+msgstr "Метод оплаты"
+
+#: views/accounts/view.php:208 views/characters/view.php:92
+msgid "This account hasn't made any donations."
+msgstr "На этом аккаунте не было сделано никаких пожертвований."
+
+#: views/accounts/view.php:242
+msgid "Change the account's password"
+msgstr "Изменить пароль учетной записи"
+
+#: views/accounts/view.php:249 views/change-password.php:27
+msgid "New password"
+msgstr "Новый пароль"
+
+#: views/accounts/view.php:250
+msgid "Type the new password"
+msgstr "Введите новый пароль"
+
+#: views/accounts/view.php:252
+msgid ""
+"The new password must be 6-20 characters long and only contain letters from A to Z, numbers from "
+"0 to 9 and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Новый пароль должен состоять из 6–20 символов и содержать только буквы от A до Z, цифры от 0 до "
+"9 и следующие специальные символы: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: views/accounts/view.php:255 views/accounts/view.php:279 views/accounts/view.php:303
+#: views/characters/view.php:141 views/characters/view.php:165 views/settings.php:359
+#: views/settings.php:426
+msgid "Close"
+msgstr "Закрыть"
+
+#: views/accounts/view.php:256 views/accounts/view.php:280 views/accounts/view.php:304
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: views/accounts/view.php:267
+msgid "Change the account's email"
+msgstr "Изменить адрес электронной почты аккаунта"
+
+#: views/accounts/view.php:274 views/change-email.php:48
+msgid "New email"
+msgstr "Новый E-mail"
+
+#: views/accounts/view.php:275
+msgid "Type the new email"
+msgstr "Введите новый адрес электронной почты"
+
+#: views/accounts/view.php:291
+msgid "Change the account's access level"
+msgstr "Изменить уровень доступа учетной записи"
+
+#: views/accounts/view.php:298 views/characters/view.php:160
+msgid "New access level"
+msgstr "Новый уровень доступа"
+
+#: views/accounts/view.php:299 views/characters/view.php:161
+msgid "Type the new access level"
+msgstr "Введите новый уровень доступа"
+
+#: views/change-email.php:9
+msgid "Fill in the following form in order to change your email."
+msgstr "Заполните следующую форму, чтобы изменить свой адрес электронной почты."
+
+#: views/change-email.php:19
+msgid "Approve this change"
+msgstr "Одобрить это изменение"
+
+#: views/change-email.php:25
+msgid "Your new email"
+msgstr "Ваш новый адрес электронной почты"
+
+#: views/change-email.php:29
+msgid "6-digit confirmation code"
+msgstr "6-значный код подтверждения"
+
+#: views/change-email.php:30
+#, php-format
+msgid "Type the code we sent to %s"
+msgstr "Введите код, который мы отправили %s"
+
+#: views/change-email.php:32
+msgid "We sent you an email with a unique 6-digit confirmation code to your current email."
+msgstr ""
+"Мы отправили вам письмо с уникальным 6-значным кодом подтверждения на ваш текущий адрес "
+"электронной почты."
+
+#: views/change-email.php:33
+msgid "Complete"
+msgstr "Завершено"
+
+#: views/change-email.php:39
+msgid "Set up your new email"
+msgstr "Настройте новый адрес электронной почты"
+
+#: views/change-email.php:44
+msgid "Your current email"
+msgstr "Ваш текущий адрес электронной почты"
+
+#: views/change-email.php:49
+msgid "Type your new email"
+msgstr "Введите новый адрес электронной почты"
+
+#: views/change-email.php:51 views/change-password.php:35 views/characters/view.php:142
+#: views/characters/view.php:166 views/settings.php:82 views/settings.php:161
+#: views/settings.php:236 views/settings.php:360 views/settings.php:427
+msgid "Save"
+msgstr "Сохранить"
+
+#: views/change-password.php:9
+msgid "Fill in the following form in order to change your password."
+msgstr "Заполните следующую форму, чтобы изменить свой пароль."
+
+#: views/change-password.php:18
+msgid "Set up a new password"
+msgstr "Установите новый пароль"
+
+#: views/change-password.php:23
+msgid "Current password"
+msgstr "Текущий пароль"
+
+#: views/change-password.php:24
+msgid "Type your current password"
+msgstr "Введите ваш текущий пароль"
+
+#: views/change-password.php:28
+msgid "Type your new password"
+msgstr "Введите новый пароль"
+
+#: views/change-password.php:31
+msgid "New password (Repeat)"
+msgstr "Новый пароль (Повторить)"
+
+#: views/change-password.php:32 views/reset-password.php:56
+msgid "Retype your new password"
+msgstr "Повторите новый пароль"
+
+#: views/change-password.php:34
+msgid ""
+"Your new password must be 6-20 characters long and only contain letters from A to Z, numbers "
+"from 0 to 9 and the following special characters: . ! @ # $ % ^ & * ( ) - + = _ /"
+msgstr ""
+"Ваш новый пароль должен состоять из 6–20 символов и содержать только буквы от A до Z, цифры от 0 "
+"до 9 и следующие специальные символы: . ! @ # $ % ^ & * ( ) - + = _ /"
+
+#: views/characters/index.php:9
+msgid "This is a list of all the characters."
+msgstr "Это список всех персонажей."
+
+#: views/characters/index.php:67 views/payments.php:62 views/payments.php:70
+msgid "All"
+msgstr "Все"
+
+#: views/characters/view.php:9
+msgid "Edit the information of the character."
+msgstr "Отредактируйте информацию о персонаже."
+
+#: views/characters/view.php:20
+msgid "Character information"
+msgstr "Информация о персонаже"
+
+#: views/characters/view.php:45
+msgid "Last Online"
+msgstr "Последний онлайн"
+
+#: views/characters/view.php:55
+msgid "Send an item"
+msgstr "Отправить товар"
+
+#: views/characters/view.php:125
+msgid "Send an item to the character"
+msgstr "Отправить предмет персонажу"
+
+#: views/characters/view.php:132 views/settings.php:252 views/settings.php:262
+#: views/settings.php:314 views/settings.php:379
+msgid "Item ID"
+msgstr "Идентификатор предмета"
+
+#: views/characters/view.php:133
+msgid "Type the item's ID"
+msgstr "Введите идентификатор предмета"
+
+#: views/characters/view.php:136 views/donate.php:26 views/donate.php:34 views/donate.php:111
+#: views/settings.php:254 views/settings.php:264 views/settings.php:328 views/settings.php:393
+msgid "Quantity"
+msgstr "Количество"
+
+#: views/characters/view.php:137
+msgid "Type the desired quantity"
+msgstr "Введите желаемое количество"
+
+#: views/characters/view.php:153
+msgid "Change the character's access level"
+msgstr "Изменить уровень доступа персонажа"
+
+#: views/common/header.php:29
+msgid "Donations"
+msgstr "Пожертвования"
+
+#: views/common/header.php:42
+msgid "Donations history"
+msgstr "История пожертвований"
+
+#: views/common/header.php:51
+#| msgid "Account name"
+msgid "Account settings"
+msgstr "Настройки учетной записи"
+
+#: views/common/header.php:57
+msgid "Change your password"
+msgstr "Измените свой пароль"
+
+#: views/common/header.php:72
+msgid "Administration"
+msgstr "Администрирование"
+
+#: views/common/header.php:80
+msgid "Game data"
+msgstr "Данные игры"
+
+#: views/common/header.php:84
+#| msgid "Account name"
+msgid "Accounts"
+msgstr "Учетные записи"
+
+#: views/common/header.php:102
+msgid "Payments history"
+msgstr "История платежей"
+
+#: views/common/header.php:110
+msgid "Server status"
+msgstr "Состояние сервера"
+
+#: views/common/header.php:124
+msgid "Online players"
+msgstr "Онлайн игроки"
+
+#: views/common/header.php:128
+msgid "Online GMs"
+msgstr "Онлайн ГМ"
+
+#: views/common/header.php:195
+msgid "Logout"
+msgstr "Выйти"
+
+#: views/donate.php:9
+#, php-format
+msgid "Donate to %s and help our server grow."
+msgstr "Сделайте пожертвование %s и помогите нашему серверу расти."
+
+#: views/donate.php:18
+msgid "Available items and services for donation"
+msgstr "Доступные товары и услуги для пожертвования"
+
+#: views/donate.php:25 views/donate.php:33
+msgid "Item / Service"
+msgstr "Товар / Услуга"
+
+#: views/donate.php:27 views/donate.php:35 views/donate.php:125 views/settings.php:255
+#: views/settings.php:265 views/settings.php:334 views/settings.php:399
+msgid "Price"
+msgstr "Стоимость"
+
+#: views/donate.php:44
+msgid "There are no items available for donation right now."
+msgstr "На данный момент нет предметов, доступных для пожертвования."
+
+#: views/donate.php:49 views/index.php:49
+msgid "You haven't created any characters."
+msgstr "Вы не создали ни одного персонажа."
+
+#: views/donate.php:71
+msgid "Terms of service"
+msgstr "Условия использования"
+
+#: views/donate.php:84
+#, php-format
+#| msgid "Login to %s"
+msgid "Donate to %s"
+msgstr "Пожертвовать %s"
+
+#: views/donate.php:91
+msgid "Select your character"
+msgstr "Выберите своего персонажа"
+
+#: views/donate.php:93
+msgid "Choose your character"
+msgstr "Выберите своего персонажа"
+
+#: views/donate.php:106
+msgid "Description"
+msgstr "Описание"
+
+#: views/donate.php:131
+msgid "Choose a method to pay"
+msgstr "Выберите способ оплаты"
+
+#: views/donate.php:140
+msgid "I have read and I agree with the Terms of Service that are shown on this page."
+msgstr "Я прочитал и согласен с Условиями обслуживания, представленными на этой странице."
+
+#: views/donate.php:142
+msgid ""
+"You will be redirected to the payment gateway's secure invironment. We do not store any of your "
+"payments information."
+msgstr ""
+"Вы будете перенаправлены в безопасную среду платежного шлюза. Мы не храним никакой информации о "
+"ваших платежах."
+
+#: views/donations-history.php:9
+msgid "This is a list with all your donation history. Thank you very much for your support!"
+msgstr "Это список со всей вашей историей пожертвований. Большое спасибо вам за вашу поддержку!"
+
+#: views/donations-history.php:19
+msgid "Your past donations"
+msgstr "Ваши прошлые пожертвования"
+
+#: views/donations-history.php:47
+msgid "You haven't made any donations."
+msgstr "Вы не сделали никаких пожертвований."
+
+#: views/index.php:9
+msgid ""
+"This is the list of your characters. If a character gets stucked upon login, you can unstuck and "
+"repair it."
+msgstr ""
+"Это список ваших персонажей. Если есть проблемы с персонажем при входе в систему, вы можете "
+"починить его."
+
+#: views/index.php:19
+msgid "Your characters"
+msgstr "Ваши персонажи"
+
+#: views/login-history.php:9
+msgid "This is all the times someone has logged in using your account."
+msgstr "Это все случаи, когда кто-то входил в систему, используя вашу учетную запись."
+
+#: views/login-history.php:21 views/login-history.php:28
+msgid "IP"
+msgstr "IP"
+
+#: views/login.php:51 views/login.php:83 views/login.php:116
+msgid "Account name"
+msgstr "Имя учетной записи"
+
+#: views/login.php:55
+msgid "Password"
+msgstr "Пароль"
+
+#: views/login.php:60
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: views/login.php:64
+msgid "Login"
+msgstr "Авторизация"
+
+#: views/login.php:69
+msgid "Forgot Password?"
+msgstr "Забыли пароль?"
+
+#: views/login.php:72
+msgid "Create a new account"
+msgstr "Создать новый аккаунт"
+
+#: views/login.php:79
+#, php-format
+msgid "Register at %s"
+msgstr "Зарегистрируйтесь в %s"
+
+#: views/login.php:87
+msgid "Set a password"
+msgstr "Установить пароль"
+
+#: views/login.php:91
+msgid "Retype your password"
+msgstr "Введите свой пароль снова"
+
+#: views/login.php:95
+msgid "Your email"
+msgstr "Ваш адрес электронной почты"
+
+#: views/login.php:98
+msgid "Register"
+msgstr "Регистрация"
+
+#: views/login.php:100
+msgid ""
+"Your account has been created, but it requires verification. We have sent you an email with a "
+"link to verify your account."
+msgstr ""
+"Ваша учетная запись создана, но требует проверки. Мы отправили вам электронное письмо со ссылкой "
+"для подтверждения вашей учетной записи."
+
+#: views/login.php:104 views/login.php:126
+msgid "Back to login"
+msgstr "Вернуться на страницу авторизации"
+
+#: views/login.php:115
+msgid "Type your account's name"
+msgstr "Введите имя своей учетной записи"
+
+#: views/login.php:120
+msgid "Reset password"
+msgstr "Сброс пароля"
+
+#: views/login.php:122
+msgid "We have sent you an email with a link to change your password."
+msgstr "Мы отправили вам электронное письмо со ссылкой для изменения пароля."
+
+#: views/login.php:147
+msgid "Back to main website"
+msgstr "Вернуться на главный сайт"
+
+#: views/login.php:159
+msgid "Error"
+msgstr "Ошибка"
+
+#: views/login.php:162 views/login.php:183 views/login.php:203 views/login.php:219
+msgid "Something went wrong. Please try again."
+msgstr "Что-то пошло не так. Пожалуйста, попробуйте еще раз."
+
+#: views/payments.php:8
+msgid "Payments History"
+msgstr "История платежей"
+
+#: views/payments.php:9
+msgid "This is a list with all the payments made by users."
+msgstr "Это список всех платежей, совершенных пользователями."
+
+#: views/payments.php:13
+msgid "List of payments"
+msgstr "Список платежей"
+
+#: views/reset-password.php:52
+msgid "Your new password"
+msgstr "Ваш новый пароль"
+
+#: views/reset-password.php:59
+msgid "Set new password"
+msgstr "Установить новый пароль"
+
+#: views/settings.php:9
+msgid "Edit the settings of L2jMobius ACM."
+msgstr "Отредактируйте настройки L2jMobius ACM."
+
+#: views/settings.php:20
+msgid "Email settings"
+msgstr "Настройки электронной почты"
+
+#: views/settings.php:25
+msgid "Your email address"
+msgstr "Ваш электронный адрес"
+
+#: views/settings.php:26
+msgid "Enter your email"
+msgstr "Введите адрес электронной почты"
+
+#: views/settings.php:27
+msgid "This will be the sender for all system emails."
+msgstr "Он будет отправителем всех системных писем."
+
+#: views/settings.php:30
+msgid "How will you send the emails?"
+msgstr "Как вы будете отправлять электронные письма?"
+
+#: views/settings.php:90
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: views/settings.php:95
+msgid "Default language"
+msgstr "Язык по умолчанию"
+
+#: views/settings.php:106
+msgid "Allow account creations?"
+msgstr "Разрешить создание учетных записей?"
+
+#: views/settings.php:108 views/settings.php:116 views/settings.php:127 views/settings.php:135
+#: views/settings.php:142 views/settings.php:149 views/settings.php:156 views/settings.php:177
+#: views/settings.php:199 views/settings.php:224 views/settings.php:225 views/settings.php:274
+#: views/settings.php:346 views/settings.php:411
+msgid "Yes"
+msgstr "Да"
+
+#: views/settings.php:109 views/settings.php:115 views/settings.php:126 views/settings.php:134
+#: views/settings.php:141 views/settings.php:148 views/settings.php:155 views/settings.php:176
+#: views/settings.php:198 views/settings.php:223 views/settings.php:279 views/settings.php:345
+#: views/settings.php:410
+msgid "No"
+msgstr "Нет"
+
+#: views/settings.php:113
+msgid "Require account email verification?"
+msgstr "Требовать подтверждения электронной почты аккаунта?"
+
+#: views/settings.php:120
+msgid "Your server's main website"
+msgstr "Основной сайт вашего сервера"
+
+#: views/settings.php:124
+msgid "Display server's stats?"
+msgstr "Отобразить статистику сервера?"
+
+#: views/settings.php:132
+msgid "Display loginserver's status?"
+msgstr "Отображать статус сервера входа?"
+
+#: views/settings.php:139
+msgid "Display gameserver's status?"
+msgstr "Отобразить статус игрового сервера?"
+
+#: views/settings.php:146
+msgid "Display online player count?"
+msgstr "Отображать количество онлайн-игроков?"
+
+#: views/settings.php:153
+msgid "Display online GM count?"
+msgstr "Отобразить онлайн-количество GM?"
+
+#: views/settings.php:169
+msgid "Donation settings"
+msgstr "Настройки пожертвований"
+
+#: views/settings.php:174
+msgid "Enable donations?"
+msgstr "Включить пожертвования?"
+
+#: views/settings.php:182
+msgid "Donation currency"
+msgstr "Валюта пожертвования"
+
+#: views/settings.php:191
+msgid "Terms of your service"
+msgstr "Условия вашего обслуживания"
+
+#: views/settings.php:196
+msgid "Enable Stripe?"
+msgstr "Включить Stripe?"
+
+#: views/settings.php:211
+msgid "For security reasons, you have to fill-in your secret key inside your .env file."
+msgstr ""
+"По соображениям безопасности вам необходимо ввести свой секретный ключ внутри вашего .env файла."
+
+#: views/settings.php:217
+msgid "In order to generate your webhook key you need to type your Endpoint URL in Stripe."
+msgstr ""
+"Чтобы сгенерировать ключ веб-перехватчика, вам необходимо ввести URL-адрес конечной точки в поле "
+"Stripe."
+
+#: views/settings.php:221
+msgid "Enable Paypal?"
+msgstr "Включить Paypal?"
+
+#: views/settings.php:231
+msgid "Type your Paypal email"
+msgstr "Введите адрес электронной почты Paypal"
+
+#: views/settings.php:244
+msgid "Donation item list"
+msgstr "Список предметов для пожертвований"
+
+#: views/settings.php:245
+msgid "Add item"
+msgstr "Добавить элемент"
+
+#: views/settings.php:253 views/settings.php:263
+msgid "Item Name"
+msgstr "Название предмета"
+
+#: views/settings.php:256 views/settings.php:266
+msgid "Allow multiple"
+msgstr "Разрешить несколько"
+
+#: views/settings.php:257 views/settings.php:267
+msgid "Max quantity"
+msgstr "Максимальное количество"
+
+#: views/settings.php:276
+msgid "Unlimited"
+msgstr "Безлимитно"
+
+#: views/settings.php:307
+msgid "Add donation item"
+msgstr "Добавить предмет для пожертвования"
+
+#: views/settings.php:315 views/settings.php:380
+msgid "Type the item's in-game ID"
+msgstr "Введите внутриигровой идентификатор предмета"
+
+#: views/settings.php:318 views/settings.php:383
+msgid "Item's Name"
+msgstr "Название предмета"
+
+#: views/settings.php:319 views/settings.php:384
+msgid "Type the name of the item"
+msgstr "Введите название предмета"
+
+#: views/settings.php:322 views/settings.php:387
+msgid "Item Description (Optional)"
+msgstr "Описание элемента (необязательно)"
+
+#: views/settings.php:323 views/settings.php:388
+msgid "This description will appear on each item"
+msgstr "Это описание будет отображаться для каждого товара"
+
+#: views/settings.php:329
+msgid "Type the item's quantity"
+msgstr "Введите количество товара"
+
+#: views/settings.php:335 views/settings.php:400
+msgid "Type the price"
+msgstr "Введите цену"
+
+#: views/settings.php:340 views/settings.php:405
+msgid ""
+"Decimals are allowed by using \".\" for decimal point. The price is not per item. It refers to "
+"the above quantity. For example, if you wish to sell 200 Αdenas for 1€, you type quantity 200 "
+"and price 1. If you want the player to be able to buy many of these, you can allow multiple "
+"orders below. This will let people buy sets of this listing, like 400 Adenas for 2€."
+msgstr ""
+"Десятичные дроби разрешены с использованием \".\" для десятичной точки. Цена указана не за "
+"штуку. Это относится к указанному выше количеству. Например, если вы хотите продать 200 аден за "
+"1 евро, введите количество 200 и цену 1. Если вы хотите, чтобы игрок мог купить много, вы можете "
+"разрешить несколько заказов. Это позволит людям покупать наборы из этого списка, например, 400 "
+"аден за 2 евро."
+
+#: views/settings.php:343 views/settings.php:408
+msgid "Allow multiple orders"
+msgstr "Разрешить несколько заказов"
+
+#: views/settings.php:351 views/settings.php:416
+msgid "Maximum order quantity (Optional)"
+msgstr "Максимальный объем заказа (опционально)"
+
+#: views/settings.php:352
+msgid "Leave empty for unlimited"
+msgstr "Оставьте пустым для неограниченного количества"
+
+#: views/settings.php:354 views/settings.php:419
+msgid ""
+"This is the maximum number a user is allowed to add this item to his \"cart\". For example, if "
+"you are selling 200 Adenas for 1€ above, you can limit the total number of Adenas to 1000 Adenas "
+"by typing the number 5. This will allow the user to only buy up to 5 times the 200 Adenas pack."
+msgstr ""
+"Это максимальное количество, которое пользователю разрешено добавить этот товар в свою "
+"«корзину». Например, если вы продаете 200 аден за 1 евро, указанную выше, вы можете ограничить "
+"общее количество аден до 1000, набрав цифру 5. Это позволит пользователю купить только до 5 раз "
+"больше пакета в 200 аден."
+
+#: views/settings.php:372
+msgid "Edit donation item"
+msgstr "Изменить элемент пожертвования"
+
+#: views/settings.php:424
+msgid "Delete"
+msgstr "Удалить"

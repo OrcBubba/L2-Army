@@ -1,0 +1,5 @@
+.env
+vendor
+.version
+**/*.lock
+**/*.tmp.mo
