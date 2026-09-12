@@ -1,6 +1,6 @@
-# Render Blueprint — deploy API + static frontend from one repo.
+# Render Blueprint — API, static frontend, and ACM.
 # Dashboard → New → Blueprint → connect this repository.
-# Set secret env vars (DB_*, CORS_ORIGIN, VITE_API_URL) when prompted.
+# Set secret env vars when prompted (DB passwords, CORS, VITE URLs).
 
 services:
   - type: web
@@ -26,7 +26,6 @@ services:
       - key: CORS_ORIGIN
         sync: false
 
-
   - type: web
     name: l2website
     runtime: static
@@ -36,7 +35,46 @@ services:
     envVars:
       - key: VITE_API_URL
         sync: false
+      - key: VITE_ACM_URL
+        sync: false
       - key: VITE_DISCORD_URL
         sync: false
       - key: VITE_DOWNLOAD_URL
         sync: false
+
+  - type: web
+    name: l2website-acm
+    runtime: docker
+    dockerfilePath: ./acm/Dockerfile
+    dockerContext: ./acm
+    envVars:
+      - key: APP_NAME
+        value: L2 Army
+      - key: APP_SCHEME
+        value: https
+      - key: DEMO_MODE
+        value: "false"
+      - key: DB_HOST
+        value: 98.29.125.109
+      - key: DB_USER
+        value: Bubba
+      - key: DB_PASS
+        sync: false
+      - key: DB_NAME
+        value: lineage2army
+      - key: DB_GAME_HOST
+        value: 98.29.125.109
+      - key: DB_GAME_USER
+        value: Bubba
+      - key: DB_GAME_PASS
+        sync: false
+      - key: DB_GAME_NAME
+        value: lineage2army
+      - key: LOGIN_HOST
+        value: 98.29.125.109
+      - key: LOGIN_PORT
+        value: "2106"
+      - key: GAME_HOST
+        value: 98.29.125.109
+      - key: GAME_PORT
+        value: "7777"
