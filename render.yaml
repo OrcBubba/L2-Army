@@ -36,7 +36,7 @@ services:
       - key: VITE_API_URL
         sync: false
       - key: VITE_ACM_URL
-        sync: false
+        value: https://l2website-acm.onrender.com
       - key: VITE_DISCORD_URL
         sync: false
       - key: VITE_DOWNLOAD_URL

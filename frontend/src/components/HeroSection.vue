@@ -10,7 +10,7 @@
         </p>
 
         <div class="cta-row">
-          <router-link class="btn btn-magenta" to="/register">Register</router-link>
+          <a class="btn btn-magenta" :href="acmLoginUrl">Register</a>
           <a class="btn btn-navy" :href="stats?.downloadUrl || '#'">Download client</a>
           <a class="btn btn-ghost" :href="stats?.discordUrl || 'https://discord.com'" target="_blank" rel="noreferrer">Community</a>
         </div>
@@ -27,9 +27,13 @@
 </template>
 
 <script setup>
+import { ACM_LOGIN_URL } from '../config';
+
 defineProps({
   stats: { type: Object, default: null },
 });
+
+const acmLoginUrl = ACM_LOGIN_URL;
 </script>
 
 <style scoped>

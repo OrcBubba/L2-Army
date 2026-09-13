@@ -15,7 +15,7 @@
         <a href="/#castles">Castles</a>
         <a href="/#raid-bosses">Raids</a>
         <a href="/#features">Features</a>
-        <router-link to="/register">Register</router-link>
+        <a :href="acmLoginUrl">Register</a>
       </nav>
 
       <div class="header-actions">
@@ -30,9 +30,13 @@
 </template>
 
 <script setup>
+import { ACM_LOGIN_URL } from '../config';
+
 defineProps({
   stats: { type: Object, default: null },
 });
+
+const acmLoginUrl = ACM_LOGIN_URL;
 </script>
 
 <style scoped>

@@ -64,8 +64,9 @@
 </template>
 
 <script setup>
-const ACM_URL = import.meta.env.VITE_ACM_URL || 'http://localhost/acm';
-const acmEmbedUrl = `${ACM_URL.replace(/\/$/, '')}/en/login?embed=1`;
+import { ACM_URL } from '../config';
+
+const acmEmbedUrl = `${ACM_URL}/en/login?embed=1`;
 
 defineProps({
   stats: { type: Object, default: null },

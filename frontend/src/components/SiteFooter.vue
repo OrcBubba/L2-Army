@@ -9,7 +9,7 @@
         <a href="/#rankings">Rankings</a>
         <a href="/#castles">Castles</a>
         <a href="/#raid-bosses">Raids</a>
-        <router-link to="/register">Create account</router-link>
+        <a :href="acmLoginUrl">Create account</a>
         <a :href="stats?.discordUrl || 'https://discord.com'" target="_blank" rel="noreferrer">Discord</a>
       </div>
     </div>
@@ -17,9 +17,13 @@
 </template>
 
 <script setup>
+import { ACM_LOGIN_URL } from '../config';
+
 defineProps({
   stats: { type: Object, default: null },
 });
+
+const acmLoginUrl = ACM_LOGIN_URL;
 </script>
 
 <style scoped>
