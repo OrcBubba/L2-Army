@@ -9,9 +9,24 @@ const raidBossesRoutes = require('./routes/raidBosses');
 
 const app = express();
 
+const allowedOrigins = [
+  config.frontendOrigin,
+  process.env.CORS_ORIGIN,
+  process.env.FRONTEND_ORIGIN,
+  'https://l2website.onrender.com',
+  'http://localhost:5173',
+  'http://127.0.0.1:5173',
+].filter(Boolean);
+
 app.use(
   cors({
-    origin: [config.frontendOrigin, 'http://127.0.0.1:5173'],
+    origin(origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+        return;
+      }
+      callback(null, true);
+    },
   })
 );
 app.use(express.json());
