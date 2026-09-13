@@ -19,7 +19,12 @@ if (!empty($_SERVER['HTTP_CLIENT_IP']))
 elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
     $user_ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
 else
-    $user_ip = $_SERVER['REMOTE_ADDR'];
+    $user_ip = $_SERVER['REMOTE_ADDR'] ?? '';
+
+$user_ip = trim(explode(',', (string) $user_ip)[0]);
+if (strlen($user_ip) > 45) {
+    $user_ip = substr($user_ip, 0, 45);
+}
 
 $repository = Dotenv\Repository\RepositoryBuilder::createWithNoAdapters()->addAdapter(Dotenv\Repository\Adapter\EnvConstAdapter::class);
 $dotenv = Dotenv\Dotenv::create($repository->immutable()->make(), __DIR__ . '/..');

@@ -191,13 +191,20 @@ if (isset($_POST['login_name'])) {
 		'created_time' => date('Y-m-d H:i:s'),
 		'lastactive' => 0,
 		'accessLevel' => ACCOUNT_USER, // 0 normal user.
-		'lastIP' => $user_ip,
+		'lastIP' => substr($user_ip, 0, 15),
 		'lastServer' => 1
 	);
-	if ($settings->check('require_verification')) {
+	$canSendMail = $settings->check('use_mailjet') || $settings->has('smtp_host');
+	if ($settings->check('require_verification') && $canSendMail) {
 		$data['accessLevel'] = ACCOUNT_NOT_VERIFIED; // -2 not verified.
 
-		$db->insert('accounts', $data);
+		try {
+			$db->insert('accounts', $data);
+		} catch (Exception $e) {
+			$response['error'] = _('Could not create the account. Please try a different name or contact an administrator.');
+			echo json_encode($response);
+			exit;
+		}
 
 		$hash = bin2hex(random_bytes(16));
 		$verification_link = $appURL . '/' . $language_id . '/verify-account/' . $data['login'] . '/' . $hash;
@@ -232,7 +239,18 @@ if (isset($_POST['login_name'])) {
 		}
 	}
 
-	$db->insert('accounts', $data);
+	try {
+		$db->insert('accounts', $data);
+	} catch (Exception $e) {
+		unset($data['created_time'], $data['lastIP'], $data['lastServer'], $data['lastactive']);
+		try {
+			$db->insert('accounts', $data);
+		} catch (Exception $e2) {
+			$response['error'] = _('Could not create the account. Please try a different name or contact an administrator.');
+			echo json_encode($response);
+			exit;
+		}
+	}
 	$db->insert('account_login_history', array('account' => $data['login'], 'ip' => $user_ip, 'login_date' => date('Y-m-d H:i:s'), 'is_game' => 0));
 	$_SESSION['account'] = $data['login'];
 	$response['success'] = true;
